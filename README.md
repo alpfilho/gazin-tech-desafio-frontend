@@ -1,70 +1,34 @@
-# Desafio FrontEnd - Gazin-Tech
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### 📺 GazinFilms 
+## Getting Started
 
-![](https://raw.githubusercontent.com/gazin-tech/Desafio-FrontEnd/main/.github/image-main.png)
+First, run the development server:
 
-## ℹ️ Informações
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Esse desafio é composto de algumas etapas. O intuito não é de forma alguma que se tenha que implementa-lo completamente para qualquer consideração de contratação.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Dica 1: Fique tranquilo e tente resolvê-lo como se estivesse estudando algo novo que queira aprender.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-O objetivo desse desafio é compreender quais conhecimentos você já possui e sua desenvoltura diante a problemas ou tarefas que esteja se deparando pela primeira vez.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-Imagine que o resultado do seu trabalho será um projeto público que será utilizado por várias pessoas. Sendo assim, aplique neste projeto as boas práticas de desenvolvimento de software que você conhece.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-**Criar um repositório público em algum serviço de hospedagem como GitHub, GitLab, BitBucket, para armazenar seu código. O mesmo deve ser enviado para a avaliação do código.**
+## Learn More
 
-## 💬 Escopo do desafio
+To learn more about Next.js, take a look at the following resources:
 
-Desenvolver uma aplicação Front-end na linguagem/framework de sua preferência, tendo como requisito ser em SPA (single-page application) e atender os requisitos listados abaixo.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**Você deve seguir como base para o desenvolvimento do layout da aplicação o seguinte mockup:**
-#### [ ► Mockup - Figma ](https://www.figma.com/file/9rnzjWDSvwlENgQNwxfu28/GazinFilms?node-id=110%3A1881)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[IMDb API](https://rapidapi.com/apidojo/api/imdb8/)**. Esta API é pública e tem dados de diversos filmes de todo o mundo. Para obter todas as informações sobre a API, pelo mesmo link você tem acesso a documentação da mesma.
+## Deploy on Vercel
 
-Outra API que pode ser utilizada para auxiliar com a tradução de algum dado é a API de traduções do Google, que pode ser acessada por aqui: **[Google Translate Api](https://rapidapi.com/googlecloud/api/google-translate1/)**. A API do IMDb já possuí integração com a API de traduções do google, porém caso necessite ou deseje, a API do google pode ser utilizada separadamente, basta consultar a sua documentação no link informado.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 💽 Requisitos
-
-A aplicação deve ser componentizada, com os seguintes componentes obrigatórios:
-
-- ***Header*** (Componente de cabeçalho);
-- ***Footer*** (Componente de rodapé);
-- ***Banner*** (Componente de banner com imagens recuperadas da API do IMBb);
-- ***ListFilms*** (Componente de listagem de filmes com dados recuperados da API do IMBb);
-- ***ListActors*** (Componente de listagem de atores com dados recuperados da API do IMBb);
-- ***ListResults*** (Componente de listagem de filmes com dados recuperados da API do IMBb após um filtro aplicado via Front-End);
-- ***Details*** (Componente de descrição da biografia/filmogragia/descrição de um filme ou ator com dados recuperados da API do IMBb).
-
-A aplicação deve conter no mínimo as quatro páginas apresentadas no mockup com as seguintes rotas:
-
-- ***/home ►*** Página incial da aplicação;
-- ***/search ►*** Página que lista os filmes após serem filtrados via o campo de input presente no header;
-- ***/movie-detail ►*** Página que exibe os detalhes de um filme selecionado;
-- ***/actor-detail ►*** Página que exibe os dados de um ator selecionado.
-
-A aplicação deve conter um campo de busca no header das páginas, que quando submetido renderiza a página `/search` contendo os filmes retornados da busca na API do IMDb.
-
-⚠️ **O layout apresentado no Figma não precisa ser seguido 100% fiel, você pode implementar novas features, funcionalidades, campos, animações, etc... como bem desejar! Use sua criatividade com base no layout apresentado para nos surpreender, isso pode acabar contando mais pontos no seu desafio.** 😃
-
-**Você também pode utilizar bibliotecas de componentes já existentes de sua escolha, como por exemplo MaterialUI, Tailwind, Bootstrap, etc..**
-
-## 🔋 Opcionais
-
-Os itens abaixo não são obrigatórios para o desafio, mas caso tenha as skills necessárias para implementá-los podem contar mais pontos no seu desafio!
-
-- **Implementação de testes;**
-- **Utilizar Storybook;**
-- **Clean Code;**
-- **Hospedagem em algum serviço de nuvem (Vercel, Heroku, etc...);**
-- **Implementar função Dark/Light Theme (Com a utilização de contexto);**
-- **Animações CSS;**
-- **Criação de novas páginas e funcionalidades;**
-- **Implementação de Docker para execução do ambiente;**
-- **Controle de versão (GIT);**
-- **Documentação do projeto.**
-
-## BOA SORTE! 😁
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
