@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
 
 	return (
 		<HeaderContainer>
-			<Link href="/" passHref>
+			<Link href="/home" passHref>
 				<LogoContainer>
 					<Logo color={theme.colors.white} />
 				</LogoContainer>
