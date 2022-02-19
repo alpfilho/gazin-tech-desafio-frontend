@@ -7,7 +7,9 @@
 				"displayName": true,
 				"pure": true,
 				"transpileTemplateLiterals": true,
-				"fileName": false
+				"fileName": false,
+				"ssr": true,
+				"preprocess": false
 			}
 		]
 	]

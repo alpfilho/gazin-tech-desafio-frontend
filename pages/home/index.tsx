@@ -10,7 +10,9 @@ const Home: NextPage = () => (
 		<Head>
 			<title>GazinFilms</title>
 		</Head>
-		<AppPage>{/* <h1>Início</h1> */}</AppPage>
+		<AppPage>
+			<h1>Início</h1>
+		</AppPage>
 	</>
 );
 
