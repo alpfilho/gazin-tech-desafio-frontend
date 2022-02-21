@@ -10,8 +10,7 @@ export const AppContainer = styled.div`
 	flex-direction: column;
 `;
 
-export const AppContent = styled.main`
+export const AppContent = styled.div`
 	flex-grow: 1;
-
 	color: ${(props) => props.theme.colors.white};
 `;
