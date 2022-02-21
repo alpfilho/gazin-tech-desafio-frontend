@@ -1,9 +1,16 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
 import React from 'react';
+import Document, {
+	Html,
+	Head,
+	Main,
+	NextScript,
+	DocumentContext,
+	DocumentInitialProps
+} from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 class AppDocument extends Document {
-	static async getInitialProps(ctx) {
+	static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
 		const sheet = new ServerStyleSheet();
 		const originalRenderPage = ctx.renderPage;
 
@@ -41,6 +48,13 @@ class AppDocument extends Document {
 					<meta name="application-name" content="GazinFilms" />
 					<meta name="msapplication-TileColor" content="#515151" />
 					<meta name="theme-color" content="#515151" />
+
+					<link rel="preconnect" href="https://fonts.googleapis.com" />
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+					<link
+						href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap"
+						rel="stylesheet"
+					></link>
 				</Head>
 				<body>
 					<Main />

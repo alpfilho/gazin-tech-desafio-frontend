@@ -1,21 +1,10 @@
 import React from 'react';
-import { useTheme } from 'styled-components';
 
-import { Logo } from '@components/logo';
+import { DeviceSwitcher } from '@components/deviceSwitcher';
 
-import { HeaderContainer, LogoContainer } from './header.styles';
-import Link from 'next/link';
+import { DesktopHeader } from './desktop';
+import { MobileHeader } from './mobile';
 
 export const Header: React.FC = () => {
-	const theme = useTheme();
-
-	return (
-		<HeaderContainer>
-			<Link href="/home" passHref>
-				<LogoContainer>
-					<Logo color={theme.colors.white} />
-				</LogoContainer>
-			</Link>
-		</HeaderContainer>
-	);
+	return <DeviceSwitcher desktop={<DesktopHeader />} tablet={<MobileHeader />} />;
 };

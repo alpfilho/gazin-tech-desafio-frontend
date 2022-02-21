@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-export const AppPageContainer = styled.div`
+export const AppPageContainer = styled.main`
 	flex-grow: 1;
-	padding-left: 4em;
-	padding-right: 4em;
 `;
