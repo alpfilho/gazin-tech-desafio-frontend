@@ -1,0 +1,1 @@
+export { ImdbRating } from './imdbRating';
