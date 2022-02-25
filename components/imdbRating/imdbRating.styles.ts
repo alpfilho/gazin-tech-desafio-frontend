@@ -35,6 +35,7 @@ export const Rating = styled.div`
 	justify-content: center;
 	align-items: center;
 	word-break: keep-all;
+	white-space: nowrap;
 	text-align: center;
 `;
 

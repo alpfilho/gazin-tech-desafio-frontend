@@ -20,9 +20,12 @@ export const ImdbRating: React.FC<{ canRate: boolean; rating?: number }> = ({
 
 		ratingValue.onChange((value) => {
 			if (ratingValueContentRef.current) {
-				ratingValueContentRef.current.innerHTML = `${Math.min(10, Math.max(0, value)).toPrecision(
-					2
-				)} / 10`;
+				const ratingValue = value.toFixed(1);
+				const ratingValueFloat = parseFloat(ratingValue);
+
+				ratingValueContentRef.current.innerHTML = `${
+					ratingValueFloat >= 10 ? 10 : ratingValueFloat <= 0 ? 0 : ratingValue
+				} / 10`;
 			}
 		});
 
@@ -36,7 +39,8 @@ export const ImdbRating: React.FC<{ canRate: boolean; rating?: number }> = ({
 			const animationControl = animate(ratingValue, rating, {
 				type: 'spring',
 				stiffness: 300,
-				damping: 50
+				damping: 50,
+				restDelta: 0.1
 			});
 			return () => {
 				animationControl.stop();
