@@ -1740,15 +1740,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/free-brands-svg-icons@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@fortawesome/free-brands-svg-icons@npm:6.0.0"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.3.0
-  checksum: 020e006dafafb5acd6428b50f23f8d52f8d684840b6494c6a7d4e90aebd7e8fc3dc0d839252ed1ff74eb431299e7970fed4cfc1085be14253566b9cd75eb2c74
-  languageName: node
-  linkType: hard
-
 "@fortawesome/free-regular-svg-icons@npm:^6.0.0":
   version: 6.0.0
   resolution: "@fortawesome/free-regular-svg-icons@npm:6.0.0"
@@ -8283,7 +8274,6 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.5
     "@fortawesome/fontawesome-svg-core": ^1.3.0
-    "@fortawesome/free-brands-svg-icons": ^6.0.0
     "@fortawesome/free-regular-svg-icons": ^6.0.0
     "@fortawesome/free-solid-svg-icons": ^6.0.0
     "@fortawesome/react-fontawesome": ^0.1.17
@@ -8311,7 +8301,6 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-storybook: ^0.5.7
     framer-motion: ^6.2.8
-    memory-cache: ^0.2.0
     next: 12.1.0
     prettier: ^2.5.1
     react: 17.0.2
@@ -10483,13 +10472,6 @@ __metadata:
   dependencies:
     map-or-similar: ^1.5.0
   checksum: d51bdc3ed8c39b4b73845c90eb62d243ddf21899914352d0c303f5e1d477abcb192f4c605e008caa4a31d823225eeb22a99ba5ee825fb88d0c33382db3aee95a
-  languageName: node
-  linkType: hard
-
-"memory-cache@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "memory-cache@npm:0.2.0"
-  checksum: 255c87fec360ce06818ca7aeb5850d798e14950a9fcea879d88e1f8d1f4a6cffb8ed16da54aa677f5ec8e47773fbe15775a1cdf837ac190e17e9fb4b71e87bee
   languageName: node
   linkType: hard
 
