@@ -16,7 +16,7 @@ import {
 export const SearchInput: React.FC = () => {
 	const inputElement = useRef<HTMLInputElement>(null);
 	const { query: urlQuery, pathname, push } = useRouter();
-	const { colors } = useTheme();
+	const theme = useTheme();
 
 	/** Ao enviar form */
 	const onSubmitSearch = useCallback(
@@ -68,7 +68,7 @@ export const SearchInput: React.FC = () => {
 			</InputContainer>
 			<SearchButton type="submit">
 				<IconContainer>
-					<FontAwesomeIcon icon={faMagnifyingGlass} color={colors.white} />
+					<FontAwesomeIcon icon={faMagnifyingGlass} color={theme.text} />
 				</IconContainer>
 			</SearchButton>
 		</SearchForm>

@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 export const SearchForm = styled.form`
 	width: 100%;
+	max-width: 18em;
 	height: 3.625em;
-	background-color: ${(props) => props.theme.colors.primaryGray};
+	background-color: ${(props) => props.theme.background3};
 
-	border-radius: 0.75em;
+	border-radius: 1em;
 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+
+	box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
 `;
 
 export const InputContainer = styled.div`
@@ -31,7 +34,7 @@ export const InputElement = styled.input`
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 
-	color: #fff;
+	color: ${({ theme }) => theme.text};
 `;
 
 export const SearchButton = styled.button`
