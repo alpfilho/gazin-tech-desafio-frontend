@@ -1,1 +1,2 @@
-export { ActorItem, ActorItemI } from './actorItem';
+export { ActorItem } from './actorItem';
+export type { ActorItemI } from './actorItem';

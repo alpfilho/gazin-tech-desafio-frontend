@@ -12,7 +12,6 @@ import { Header } from 'components/header';
 import { Footer } from 'components/footer';
 
 import { ViewportProvider } from 'hooks/useViewport';
-import { ElementsSizeProvider } from 'hooks/useElementSize';
 
 import { AppThemeDark, AppThemeLight } from './_app.theme';
 import { AppContainer, AppContent } from './_app.styles';
@@ -32,17 +31,15 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
 
 	return (
 		<ViewportProvider>
-			<ElementsSizeProvider>
-				<ThemeProvider theme={appTheme === 'light' ? AppThemeLight : AppThemeDark}>
-					<AppContainer>
-						<Header activeTheme={appTheme} themeSwitch={themeSwitch} />
-						<AppContent>
-							<Component {...pageProps} />
-						</AppContent>
-						<Footer />
-					</AppContainer>
-				</ThemeProvider>
-			</ElementsSizeProvider>
+			<ThemeProvider theme={appTheme === 'light' ? AppThemeLight : AppThemeDark}>
+				<AppContainer>
+					<Header activeTheme={appTheme} themeSwitch={themeSwitch} />
+					<AppContent>
+						<Component {...pageProps} />
+					</AppContent>
+					<Footer />
+				</AppContainer>
+			</ThemeProvider>
 		</ViewportProvider>
 	);
 };

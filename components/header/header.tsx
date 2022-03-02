@@ -8,13 +8,7 @@ import { Logo } from 'components/logo';
 import { ContentContainer } from 'components/contentContainer';
 
 import { SearchInput } from './searchInput';
-import {
-	HeaderContainer,
-	HeaderContent,
-	LogoContainer,
-	RightContainer,
-	SearchContainer
-} from './header.styles';
+import { HeaderContainer, HeaderContent, LogoContainer, RightContainer } from './header.styles';
 import { ThemeSwitcher } from './themeSwitcher';
 
 interface HeaderI {

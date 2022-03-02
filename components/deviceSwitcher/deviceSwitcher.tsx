@@ -1,4 +1,4 @@
-import { useViewport } from '@hooks/useViewport';
+import { useViewport } from 'hooks/useViewport';
 import { memo, ReactElement, isValidElement } from 'react';
 
 interface DeviceSwitchI {
