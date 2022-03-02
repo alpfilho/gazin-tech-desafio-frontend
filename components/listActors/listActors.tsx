@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const ListActors: React.FC<{ list: { title: string }[] }> = () => {
-	return <h1>Atores Populares</h1>;
+import { ActorData } from 'lib/types';
+
+export const ListActors: React.FC<{ initialData: ActorData[] }> = () => {
+	return null;
 };

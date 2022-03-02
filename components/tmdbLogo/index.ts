@@ -1,0 +1,1 @@
+export { TmdbLogo } from './tmdbLogo';

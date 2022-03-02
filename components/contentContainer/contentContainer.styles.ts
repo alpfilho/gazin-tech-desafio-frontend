@@ -10,6 +10,16 @@ export const Container = styled.div`
 
 	padding-left: 4em;
 	padding-right: 4em;
+
+	@media screen and (max-width: 992px) {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 `;
 
 export const Content = styled.div`
