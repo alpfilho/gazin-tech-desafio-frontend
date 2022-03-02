@@ -3,9 +3,10 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import { ListResults } from '@components/listResults';
-
-import { SearchPage } from './search.styles';
+import { AppPage } from 'components/appPage';
+import { ListResults } from 'components/listResults';
+import { Section } from 'components/section';
+import { Title } from 'components/title';
 
 const Search: NextPage = () => {
 	const { query: urlQuery } = useRouter();
@@ -26,10 +27,13 @@ const Search: NextPage = () => {
 			<Head>
 				<title>Busca | GazinFilms</title>
 			</Head>
-			<SearchPage>
-				<h1>{`Resultados para: "${searchString}"`}</h1>
+			<AppPage>
+				<Section>
+					<Title>Resultados</Title>
+				</Section>
+				<h1>{searchString}</h1>
 				<ListResults />
-			</SearchPage>
+			</AppPage>
 		</>
 	);
 };
