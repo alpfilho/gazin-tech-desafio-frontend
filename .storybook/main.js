@@ -7,6 +7,9 @@ module.exports = {
 		'storybook-addon-next'
 	],
 	framework: '@storybook/react',
+	reactOptions: {
+		fastRefresh: true
+	},
 	core: {
 		builder: 'webpack5'
 	}
