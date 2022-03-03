@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SearchForm = styled.form`
 	width: 100%;
-	max-width: 18em;
+	max-width: 20em;
 	height: 3.625em;
 	background-color: ${(props) => props.theme.background3};
 

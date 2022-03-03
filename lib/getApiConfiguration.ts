@@ -1,4 +1,4 @@
-import { ApiConfiguration } from './types';
+import type { ApiConfiguration } from './types';
 
 /**
  * Para construir as urls das imagens, é necessário utilizar a base_url disponível apenas na configuração da api:

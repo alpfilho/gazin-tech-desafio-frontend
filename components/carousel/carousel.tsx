@@ -1,57 +1,35 @@
-import React, { useCallback, useState } from 'react';
-import { useTheme } from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import React, { useCallback } from 'react';
 
-import { MovieItemI } from 'components/movieItem';
-import { ActorItemI } from 'components/actorItem';
+import { ItemActorData, ItemMovieData } from 'lib/types';
 
-import { useViewport } from 'hooks/useViewport';
+import { SliderControl } from 'components/sliderControl';
 
-import { ActorData, MovieData } from 'lib/types';
+import { ItemsContainer } from './itemsContainer';
 
-import {
-	CarouselContainer,
-	ItemsContainer,
-	NavIconContainer,
-	NavLeft,
-	NavRight
-} from './carousel.styles';
+import { CarouselContainer, LeftGradient, RightGradient } from './carousel.styles';
 
 interface CarouselI {
-	initialData: MovieData[] | ActorData[];
-	itemElement: React.FC<MovieItemI> | React.FC<ActorItemI>;
+	type: 'movie' | 'actor';
+	data: ItemActorData[] | ItemMovieData[];
+	upcomingRelease?: boolean;
 }
 
-export const Carousel: React.FC<CarouselI> = ({ itemElement: Item }) => {
-	const { device } = useViewport();
-
-	const showQty = device === 'desktop' ? 6 : 2;
-	const [pageIndex, setPageIndex] = useState(0);
-
-	const { colors } = useTheme();
-
-	const goForwards = useCallback(() => {
-		console.log('forwards >>');
+export const Carousel: React.FC<CarouselI> = ({ type, data, upcomingRelease }) => {
+	const goBackwards = useCallback(() => {
+		console.log('<<');
 	}, []);
 
-	const goBackwards = useCallback(() => {
-		console.log('<< backwards');
+	const goForwards = useCallback(() => {
+		console.log('>>');
 	}, []);
 
 	return (
 		<CarouselContainer>
-			<NavLeft onClick={goBackwards}>
-				<NavIconContainer>
-					<FontAwesomeIcon icon={faChevronLeft} color="#FFB800" />
-				</NavIconContainer>
-			</NavLeft>
-			<ItemsContainer></ItemsContainer>
-			<NavRight onClick={goForwards}>
-				<NavIconContainer>
-					<FontAwesomeIcon icon={faChevronRight} color="#FFB800" />
-				</NavIconContainer>
-			</NavRight>
+			<LeftGradient />
+			<SliderControl type="left" controlFn={goBackwards} />
+			<ItemsContainer type={type} data={data} upcomingRelease={upcomingRelease} />
+			<SliderControl type="right" controlFn={goForwards} />
+			<RightGradient />
 		</CarouselContainer>
 	);
 };

@@ -2,13 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 
 import type { GetStaticProps, NextPage } from 'next';
-import type { ActorData, ApiConfiguration, MovieData } from 'lib/types';
+import type { BannerMovieData, ItemActorData, ItemMovieData } from 'lib/types';
 
-import { getApiConfiguration } from 'lib/getApiConfiguration';
-import { getBannerMovies } from 'lib/getBannerMovies';
-import { getPopularMovies } from 'lib/getPopularMovies';
-import { getComingSoonMovies } from 'lib/getComingSoonMovies';
-import { getPopularActors } from 'lib/getPopularActors';
+import { getHomeData } from 'lib/getHomeData';
 
 import { AppPage } from 'components/appPage';
 import { Banner } from 'components/banner';
@@ -16,56 +12,49 @@ import { Section } from 'components/section';
 import { Title } from 'components/title';
 import { ListFilms } from 'components/listFilms';
 import { ListActors } from 'components/listActors';
+import { ContentContainer } from 'components/contentContainer';
 
 const Home: NextPage<{
-	apiConfig: ApiConfiguration;
-	bannerMoviesData: MovieData[];
-	popularMoviesInitialData: MovieData[];
-	comingSoonMoviesInitialData: MovieData[];
-	popularActorsInitialData: ActorData[];
-}> = ({
-	apiConfig,
-	bannerMoviesData,
-	popularMoviesInitialData,
-	comingSoonMoviesInitialData,
-	popularActorsInitialData
-}) => {
-	return (
-		<AppPage>
-			<Head>
-				<title>GazinFilms</title>
-			</Head>
-			<Banner apiConfig={apiConfig} movies={bannerMoviesData} />
-			<Section>
+	bannerMovies: BannerMovieData[];
+	popularMovies: ItemMovieData[];
+	comingSoonMovies: ItemMovieData[];
+	popularActors: ItemActorData[];
+}> = ({ bannerMovies, popularMovies, comingSoonMovies, popularActors }) => (
+	<AppPage>
+		<Head>
+			<title>GazinFilms</title>
+		</Head>
+		<Banner movies={bannerMovies} />
+		<Section>
+			<ContentContainer>
 				<Title>Próximos Lançamentos</Title>
-				<ListFilms initialData={comingSoonMoviesInitialData} />
-			</Section>
-			<Section>
+			</ContentContainer>
+			<ListFilms movies={comingSoonMovies} upcomingRelease />
+		</Section>
+		<Section>
+			<ContentContainer>
 				<Title>Filmes Populares</Title>
-				<ListFilms initialData={popularMoviesInitialData} />
-			</Section>
-			<Section>
+			</ContentContainer>
+			<ListFilms movies={popularMovies} />
+		</Section>
+		<Section>
+			<ContentContainer>
 				<Title>Atores Populares</Title>
-				<ListActors initialData={popularActorsInitialData} />
-			</Section>
-		</AppPage>
-	);
-};
+			</ContentContainer>
+			<ListActors actors={popularActors} />
+		</Section>
+	</AppPage>
+);
 
 export const getStaticProps: GetStaticProps = async () => {
-	const apiConfig = await getApiConfiguration();
-	const bannerMoviesData = await getBannerMovies();
-	const popularMoviesInitialData = await getPopularMovies();
-	const comingSoonMoviesInitialData = await getComingSoonMovies();
-	const popularActorsInitialData = await getPopularActors();
+	const { bannerMovies, popularMovies, comingSoonMovies, popularActors } = await getHomeData();
 
 	return {
 		props: {
-			apiConfig,
-			bannerMoviesData,
-			popularMoviesInitialData,
-			comingSoonMoviesInitialData,
-			popularActorsInitialData
+			bannerMovies,
+			popularMovies,
+			comingSoonMovies,
+			popularActors
 		},
 		/* Refaz a página a cada 24 horas */
 		revalidate: 24 * 60 * 60

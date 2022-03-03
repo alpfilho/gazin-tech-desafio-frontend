@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-import { Title as TitleComponent } from 'components/title';
 import { Container, Content } from 'components/contentContainer';
 
 import { Rating } from 'components/tmdbRating/tmdbRating.styles';
@@ -59,43 +58,12 @@ export const RatingContainer = styled.div`
 export const TextContainer = styled.div`
 	position: relative;
 	isolation: isolate;
-	overflow: hidden;
 	height: 40%;
-	/* background-color: red; */
 	padding-top: 2em;
 	padding-bottom: 2em;
 	width: 100%;
 	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.33));
 	color: ${({ theme }) => theme.colors.white};
-`;
-
-export const TextContent = styled(motion.div)`
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-`;
-export const Title = styled(TitleComponent)`
-	font-size: 4em;
-	/* height: 78px; */
-	white-space: nowrap;
-	overflow: hidden;
-	padding-bottom: 0.125em;
-`;
-
-export const Synopsis = styled.p`
-	display: block;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	max-width: 62ch;
-	line-height: 120%;
-	/* height: 300px; */
-	overflow: hidden;
-	padding: 0;
-	margin: 0;
 `;
 
 export const BackgroundContainer = styled.div`

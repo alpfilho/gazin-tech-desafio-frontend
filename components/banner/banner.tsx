@@ -1,13 +1,14 @@
-import React, { useCallback, useState } from 'react';
-import { useTheme } from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import React, { useCallback, useState, useRef, useEffect } from 'react';
+import { useMotionValue, animate } from 'framer-motion';
 
-import type { ApiConfiguration, MovieData } from 'lib/types';
+import type { ApiConfiguration, BannerMovieData } from 'lib/types';
 import { makeBackdropPath } from 'lib/utils/makeBackdropPath';
 
 import { TmdbRating } from 'components/tmdbRating';
 import { ContentContainer } from 'components/contentContainer';
+
+import { ControlButton } from './controlButton';
+import { TextContent } from './textContent';
 
 import {
 	BackgroundContainer,
@@ -17,24 +18,33 @@ import {
 	BannerContainer,
 	BannerContent,
 	RatingContainer,
-	Synopsis,
 	TextBackground,
-	TextContainer,
-	TextContent,
-	Title
+	TextContainer
 } from './banner.styles';
-import { ControlButton } from './controlButton';
 
 interface BannerI {
-	apiConfig: ApiConfiguration;
-	movies: MovieData[];
+	movies: BannerMovieData[];
 }
 
-export const Banner: React.FC<BannerI> = ({ apiConfig, movies }) => {
+const loopInterval = 4000;
+const debounceTime = 400;
+
+export const Banner: React.FC<BannerI> = ({ movies }) => {
+	const prevIndexRef = useRef(0);
 	const [slideIndex, setSlideIndex] = useState(0);
+
+	const loopControlRef = useRef<{ timeoutID: NodeJS.Timeout | undefined; waitTime: number }>({
+		timeoutID: undefined,
+		waitTime: loopInterval
+	});
+
+	useEffect(() => {
+		console.log(prevIndexRef.current, slideIndex);
+	}, [slideIndex]);
 
 	const goForwards = useCallback(() => {
 		setSlideIndex((prevSlide) => {
+			prevIndexRef.current = prevSlide;
 			const nextSlide = prevSlide + 1;
 
 			if (nextSlide > movies.length - 1) {
@@ -47,6 +57,7 @@ export const Banner: React.FC<BannerI> = ({ apiConfig, movies }) => {
 
 	const goBackwards = useCallback(() => {
 		setSlideIndex((prevSlide) => {
+			prevIndexRef.current = prevSlide;
 			const nextSlide = prevSlide - 1;
 
 			if (nextSlide < 0) {
@@ -64,37 +75,19 @@ export const Banner: React.FC<BannerI> = ({ apiConfig, movies }) => {
 			<BannerContent>
 				<ContentContainer>
 					<RatingContainer>
-						<TmdbRating rating={movies[slideIndex].vote_average} />
+						{movies[slideIndex] && <TmdbRating rating={movies[slideIndex].rating} />}
 					</RatingContainer>
 					<TextContainer>
-						{movies.map(({ id, title, overview }) => {
-							const match = movies[slideIndex].id === id;
+						{movies.map(({ id, title, overview }, index) => {
 							return (
 								<TextContent
 									key={id}
-									initial={{
-										x: match ? '0%' : '25%',
-										opacity: match ? 1 : 0,
-										zIndex: match ? 1 : 0
-									}}
-									animate={{
-										x: match ? '0%' : '-25%',
-										opacity: match ? 1 : 0,
-										zIndex: match ? 1 : 0
-									}}
-									transition={{
-										x: { type: 'spring', from: '25%' },
-										opacity: {
-											type: 'tween',
-											duration: 0.75,
-											ease: 'linear',
-											delay: match ? 0 : 0.75
-										}
-									}}
-								>
-									<Title>{title}</Title>
-									<Synopsis>{overview}</Synopsis>
-								</TextContent>
+									itemIndex={index}
+									title={title}
+									overview={overview}
+									slideIndex={slideIndex}
+									prevIndexRef={prevIndexRef}
+								/>
 							);
 						})}
 					</TextContainer>
@@ -103,13 +96,13 @@ export const Banner: React.FC<BannerI> = ({ apiConfig, movies }) => {
 
 			<BackgroundContainer>
 				<BackgroundContent>
-					{movies.map(({ id, backdrop_path }) => {
+					{movies.map(({ id, backdrop }) => {
 						const match = movies[slideIndex].id === id;
 						return (
 							<BackgroundImage
 								key={id}
-								backgroundimage={makeBackdropPath(backdrop_path, apiConfig)}
-								initial={{ opacity: match ? 1 : 0, zIndex: match ? 1 : 0 }}
+								backgroundimage={backdrop}
+								initial={false}
 								animate={{ opacity: match ? 1 : 0, zIndex: match ? 1 : 0 }}
 								transition={{
 									opacity: {

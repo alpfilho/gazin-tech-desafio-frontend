@@ -14,6 +14,7 @@
 ✨ **Testes unitários para componentes**</br>
 ✨ **_Cache_ do _front-end_ com geração estática incremental**</br>
 ✨ **Imagens otimizadas**</br>
+✨ **CI / CD**</br>
 ✨ **Typescript**</br>
 
 ## 📃 Escopo do desafio:
@@ -52,7 +53,7 @@ Portanto, para o _front-end_, utilizei:
 
    É uma biblioteca de animações focada em componentes `React`. É uma boa utilidade para desenvolver animações com rapidez, mas também oferece ferramentas para criar interações do zero.
 
-Os componentes `banner` e `listFilms` utilizam um _slider_ e um _carousel_ que foram **feitos do zero**. Não utiizei bibliotecas prontas e desenvolvi uma solução otimizada para a aplicação. As requisições de novas informações são feitas sob demanda.
+Os componentes `banner` e `listFilms` utilizam um _slider_ e um _carousel_ que foram **feitos do zero**. Não utiizei bibliotecas prontas e desenvolvi uma solução otimizada para a aplicação.
 
 Baseado em conhecimentos anteriores, criei a _hook_ `useViewport` e o componente `<DeviceSwitch />` que utilizam o tamanho da _viewport_ para alternar entre estilos e componentes. Dessa forma, cada dispositivo recebe a interface desenvolvida pra ele.
 

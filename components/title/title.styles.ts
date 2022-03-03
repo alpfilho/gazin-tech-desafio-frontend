@@ -8,4 +8,7 @@ export const Title = styled.h1`
 	font-weight: 700;
 
 	user-select: none;
+
+	font-size: 2.5em;
+	padding-bottom: 0.25em;
 `;

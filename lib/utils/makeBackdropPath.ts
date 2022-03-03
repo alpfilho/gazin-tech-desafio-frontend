@@ -1,10 +1,7 @@
-import { ApiConfiguration } from 'lib/types';
-
-export const makeBackdropPath = (path: string | null, apiConfig: ApiConfiguration): string => {
+export const makeBackdropPath = (path: string | null, baseUrl: string): string => {
 	if (path) {
-		const basePath = apiConfig.images.base_url;
 		const size = 'original';
-		return `${basePath}${size}${path}`;
+		return `${baseUrl}${size}${path}`;
 	} else {
 		return '';
 	}

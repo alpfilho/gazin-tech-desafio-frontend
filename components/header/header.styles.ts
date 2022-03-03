@@ -43,7 +43,7 @@ export const LogoContainer = styled.a`
 	display: block;
 	height: auto;
 	width: 100%;
-	max-width: 312px;
+	max-width: 20em;
 `;
 
 export const RightContainer = styled.div`

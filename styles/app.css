@@ -1,0 +1,12 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.no-select {
+	user-select: none;
+}

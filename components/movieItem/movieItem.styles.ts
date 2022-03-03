@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const MovieItemContainer = styled.div`
+export const MovieItemContainer = styled.a`
+	display: flex;
+	flex-direction: column;
+
 	width: 192px;
 	height: auto;
 

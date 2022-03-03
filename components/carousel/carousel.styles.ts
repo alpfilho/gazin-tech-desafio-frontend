@@ -1,51 +1,35 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const CarouselContainer = styled.div`
 	position: relative;
-	height: 300px;
 	width: 100%;
+	/* background-color: red; */
+	overflow: hidden;
 `;
 
-export const NavigationContainer = styled.button`
-	position: absolute;
+export const BackgroundGradient = styled(motion.div)`
+	width: 6em;
 	top: 0;
 	bottom: 0;
 	height: 100%;
-	cursor: pointer;
-
-	border: none;
-	background-color: transparent;
+	position: absolute;
 `;
 
-export const NavLeft = styled(NavigationContainer)`
+export const LeftGradient = styled(BackgroundGradient)`
+	background: linear-gradient(
+		90deg,
+		${({ theme }) => theme.background} 0%,
+		${({ theme }) => theme.background}00 100%
+	);
 	left: 0;
-	transform: translateX(-50%);
 `;
 
-export const NavRight = styled(NavigationContainer)`
+export const RightGradient = styled(BackgroundGradient)`
+	background: linear-gradient(
+		-90deg,
+		${({ theme }) => theme.background} 0%,
+		${({ theme }) => theme.background}00 100%
+	);
 	right: 0;
-	transform: translateX(50%);
-`;
-
-export const NavIconContainer = styled.div`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	width: 5em;
-	height: 5em;
-
-	background-color: rgba(0, 0, 0, 0.66);
-	border-radius: 50%;
-
-	svg {
-		height: 1.25em;
-		width: auto;
-	}
-`;
-
-export const ItemsContainer = styled.div`
-	width: 100%;
-	height: 100%;
-	/* background-color: blue; */
 `;

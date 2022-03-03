@@ -1,9 +1,9 @@
-import { MovieData } from './types';
+import { MovieApiData } from './types';
 
 /**
  * Retorna os próximos filmes que serão lançados a partir da data da requisição. Cada página da API tem o tamanho fixo de 20 resultados. Paginamos de forma independente no front-end.
  */
-export const getComingSoonMovies = async (page = 1): Promise<MovieData[]> => {
+export const getComingSoonMovies = async (page = 1): Promise<MovieApiData[]> => {
 	return new Promise(async (resolve, reject) => {
 		try {
 			const brazilDate = new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
@@ -21,15 +21,7 @@ export const getComingSoonMovies = async (page = 1): Promise<MovieData[]> => {
 			);
 
 			const moviesDataJson = await moviesDataResponse.json();
-			const moviesData = moviesDataJson.results.map(
-				({ id, title, poster_path, release_date }: MovieData) => ({
-					id,
-					title,
-					poster_path,
-					release_date
-				})
-			);
-			resolve(moviesData);
+			resolve(moviesDataJson.results);
 		} catch (error) {
 			reject(error);
 		}

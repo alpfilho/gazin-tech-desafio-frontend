@@ -1,7 +1,13 @@
 import React from 'react';
 
-import { ActorData } from 'lib/types';
+import type { ItemActorData } from 'lib/types';
 
-export const ListActors: React.FC<{ initialData: ActorData[] }> = () => {
-	return null;
+import { Carousel } from 'components/carousel';
+
+interface ListActorsI {
+	actors: ItemActorData[];
+}
+
+export const ListActors: React.FC<ListActorsI> = ({ actors }) => {
+	return <Carousel type="actor" data={actors} />;
 };

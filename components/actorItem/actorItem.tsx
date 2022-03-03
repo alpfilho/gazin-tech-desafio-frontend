@@ -1,19 +1,32 @@
+import React, { useCallback } from 'react';
+import Link from 'next/link';
+
 import { ActorAvatar } from 'components/actorAvatar';
-import React from 'react';
-import { ActorItemContainer } from './actorItem.styles';
+
+import { ActorItemContainer, ActorName, ActorAge } from './actorItem.styles';
 
 export interface ActorItemI {
+	id: number;
 	image: string;
 	name: string;
-	age: number;
+	birthday: string;
 }
 
-export const ActorItem: React.FC<ActorItemI> = ({ image, name, age }) => {
+export const ActorItem: React.FC<ActorItemI> = ({ id, image, name, birthday }) => {
+	const calcAge = useCallback((birthday) => {
+		const todayDate = new Date();
+		const birthdayDate = new Date(birthday);
+
+		return todayDate.getFullYear() - birthdayDate.getFullYear();
+	}, []);
+
 	return (
-		<ActorItemContainer>
-			<ActorAvatar url={image} />
-			{name}
-			{age}
-		</ActorItemContainer>
+		<Link href={`/actor-detail/${encodeURIComponent(id)}`} passHref>
+			<ActorItemContainer>
+				<ActorAvatar url={image} />
+				<ActorName>{name}</ActorName>
+				<ActorAge>{calcAge(birthday)}</ActorAge>
+			</ActorItemContainer>
+		</Link>
 	);
 };

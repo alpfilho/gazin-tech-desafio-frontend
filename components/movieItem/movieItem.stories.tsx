@@ -23,5 +23,5 @@ export default {
 } as ComponentMeta<typeof MovieItem>;
 
 export const Default: ComponentStory<typeof MovieItem> = ({ title, image, releaseDate }) => (
-	<MovieItem title={title} image={image} releaseDate={releaseDate} />
+	<MovieItem id={1} title={title} image={image} releaseDate={releaseDate} />
 );

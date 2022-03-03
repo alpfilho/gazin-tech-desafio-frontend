@@ -8,8 +8,8 @@ export const Container = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	padding-left: 4em;
-	padding-right: 4em;
+	padding-left: 6em;
+	padding-right: 6em;
 
 	@media screen and (max-width: 992px) {
 		padding-left: 2em;
