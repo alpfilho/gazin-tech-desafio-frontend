@@ -14,6 +14,8 @@ export const SearchForm = styled.form`
 	align-items: center;
 
 	box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
+
+
 `;
 
 export const InputContainer = styled.div`

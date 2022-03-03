@@ -27,20 +27,10 @@ interface BannerI {
 }
 
 const loopInterval = 4000;
-const debounceTime = 400;
 
 export const Banner: React.FC<BannerI> = ({ movies }) => {
 	const prevIndexRef = useRef(0);
-	const [slideIndex, setSlideIndex] = useState(0);
-
-	const loopControlRef = useRef<{ timeoutID: NodeJS.Timeout | undefined; waitTime: number }>({
-		timeoutID: undefined,
-		waitTime: loopInterval
-	});
-
-	useEffect(() => {
-		console.log(prevIndexRef.current, slideIndex);
-	}, [slideIndex]);
+	const [activeSlide, setSlideIndex] = useState(0);
 
 	const goForwards = useCallback(() => {
 		setSlideIndex((prevSlide) => {
@@ -68,6 +58,38 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 		});
 	}, [movies.length]);
 
+	const loopControlRef = useRef<{ timeoutID: NodeJS.Timeout | undefined; waitTime: number }>({
+		timeoutID: undefined,
+		waitTime: loopInterval
+	});
+
+	/**
+	 * Loop
+	 */
+	const startTimer = useCallback(() => {
+		const loopControl = loopControlRef.current;
+
+		if (loopControl.timeoutID) {
+			clearTimeout(loopControl.timeoutID);
+		}
+
+		loopControl.timeoutID = setTimeout(() => {
+			goForwards();
+		}, loopInterval);
+	}, [goForwards]);
+
+	useEffect(() => {
+		startTimer();
+
+		const loopControl = loopControlRef.current;
+
+		return () => {
+			if (loopControl.timeoutID) {
+				clearTimeout(loopControl.timeoutID);
+			}
+		};
+	}, [activeSlide, startTimer]);
+
 	return (
 		<BannerContainer>
 			<ControlButton type="left" controlFn={goBackwards} />
@@ -75,7 +97,7 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 			<BannerContent>
 				<ContentContainer>
 					<RatingContainer>
-						{movies[slideIndex] && <TmdbRating rating={movies[slideIndex].rating} />}
+						{movies[activeSlide] && <TmdbRating rating={movies[activeSlide].rating} />}
 					</RatingContainer>
 					<TextContainer>
 						{movies.map(({ id, title, overview }, index) => {
@@ -85,7 +107,8 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 									itemIndex={index}
 									title={title}
 									overview={overview}
-									slideIndex={slideIndex}
+									activeSlide={activeSlide}
+									slideLength={movies.length}
 									prevIndexRef={prevIndexRef}
 								/>
 							);
@@ -97,7 +120,7 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 			<BackgroundContainer>
 				<BackgroundContent>
 					{movies.map(({ id, backdrop }) => {
-						const match = movies[slideIndex].id === id;
+						const match = movies[activeSlide].id === id;
 						return (
 							<BackgroundImage
 								key={id}
@@ -107,9 +130,9 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 								transition={{
 									opacity: {
 										type: 'tween',
-										duration: 0.75,
+										duration: 0.33,
 										ease: 'linear',
-										delay: match ? 0 : 0.75
+										delay: match ? 0 : 0.33
 									}
 								}}
 							/>

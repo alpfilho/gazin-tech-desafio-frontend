@@ -35,6 +35,10 @@ export const HeaderContent = styled.div`
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
+
+			@media screen and (max-width: 768px) {
+				justify-content: center;
+			}
 		}
 	}
 `;
@@ -44,6 +48,14 @@ export const LogoContainer = styled.a`
 	height: auto;
 	width: 100%;
 	max-width: 20em;
+
+	@media screen and (max-width: 920px) {
+		max-width: 40%;
+	}
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 `;
 
 export const RightContainer = styled.div`

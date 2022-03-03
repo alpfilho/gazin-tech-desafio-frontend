@@ -14,6 +14,7 @@ export const BackgroundGradient = styled(motion.div)`
 	bottom: 0;
 	height: 100%;
 	position: absolute;
+	transition: 250ms linear;
 `;
 
 export const LeftGradient = styled(BackgroundGradient)`

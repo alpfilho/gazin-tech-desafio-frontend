@@ -5,48 +5,82 @@ import { TextContentContainer, Synopsis, Title } from './textContent.styles';
 
 interface TextContentI {
 	prevIndexRef: MutableRefObject<number>;
-	slideIndex: number;
 	itemIndex: number;
+	activeSlide: number;
+	slideLength: number;
 	title: string;
 	overview: string;
 }
 
 export const TextContent: React.FC<TextContentI> = ({
 	prevIndexRef,
-	slideIndex,
 	itemIndex,
+	activeSlide,
+	slideLength,
 	title,
 	overview
 }) => {
-	const animationControl = useAnimation();
+	const state = activeSlide === itemIndex ? 'active' : 'hidden';
+	const prevSlide = prevIndexRef.current;
 
-	useEffect(() => {
-		animationControl.stop();
+	let isRightDirection;
 
-		/* caso seja algum dos que mudaram */
-		if (
-			slideIndex !== prevIndexRef.current &&
-			(slideIndex === itemIndex || prevIndexRef.current === itemIndex)
-		) {
-			if (slideIndex === itemIndex) {
-				// entrada
-				animationControl.set({ opacity: 0, x: '25%' });
-				animationControl.start({ opacity: 1, x: '0%' });
-			} else if (prevIndexRef.current === itemIndex) {
-				// saída
-				animationControl.start({ opacity: 0, x: '-25%' });
-			}
+	if (activeSlide === slideLength - 1) {
+		if (prevSlide === 0) {
+			isRightDirection = false;
+		} else {
+			isRightDirection = true;
 		}
-
-		return () => {
-			animationControl.stop();
-		};
-	}, [animationControl, itemIndex, prevIndexRef, slideIndex]);
+	} else if (activeSlide === 0) {
+		if (prevSlide === slideLength - 1) {
+			isRightDirection = true;
+		} else {
+			isRightDirection = false;
+		}
+	} else {
+		isRightDirection = prevIndexRef.current < activeSlide;
+	}
 
 	return (
 		<TextContentContainer
-			initial={{ opacity: slideIndex === itemIndex ? 1 : 0 }}
-			animate={animationControl}
+			initial={false}
+			variants={{
+				active: {
+					x: '0%',
+					opacity: 1,
+					transition: {
+						opacity: {
+							from: 0,
+							type: 'tween',
+							duration: 0.33
+						},
+						x: {
+							from: isRightDirection ? '25%' : '-25%',
+							type: 'spring',
+							mass: 1,
+							stiffness: 200,
+							damping: 30
+						}
+					}
+				},
+				hidden: {
+					opacity: 0,
+					x: isRightDirection ? '-25%' : '25%',
+					transition: {
+						opacity: {
+							type: 'tween',
+							duration: 0.33
+						},
+						y: {
+							type: 'spring',
+							mass: 1,
+							stiffness: 200,
+							damping: 30
+						}
+					}
+				}
+			}}
+			animate={state}
 		>
 			<Title>{title}</Title>
 			<Synopsis>{overview}</Synopsis>

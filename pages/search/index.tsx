@@ -17,7 +17,6 @@ const Search: NextPage = () => {
 
 		if (typeof query === 'string') {
 			const decodedSearch = decodeURIComponent(query);
-
 			setSearchString(decodedSearch);
 		}
 	}, [urlQuery]);

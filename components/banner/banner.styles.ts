@@ -17,6 +17,8 @@ export const BannerContainer = styled.section`
 	background-size: cover;
 	background-position-y: center;
 	background-position-x: center;
+
+	overflow: hidden;
 `;
 
 export const BannerContent = styled.div`
@@ -30,6 +32,16 @@ export const BannerContent = styled.div`
 		height: 100%;
 		padding-left: 14em;
 		padding-right: 14em;
+
+		@media screen and (max-width: 1100px) {
+			padding-left: 4em;
+			padding-right: 4em;
+		}
+
+		@media screen and (max-width: 768px) {
+			padding-left: 2em;
+			padding-right: 2em;
+		}
 
 		${Content} {
 			width: 100%;
@@ -47,8 +59,21 @@ export const RatingContainer = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
+	height: 70%;
 
-	height: 60%;
+	@media screen and (max-width: 1100px) {
+		height: 60%;
+		justify-content: center;
+		padding-top: 2em;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-top: 1em;
+	}
+
+	@media screen and (max-height: 600px) {
+		height: 50%;
+	}
 
 	${Rating} {
 		color: ${({ theme }) => theme.colors.white};
@@ -64,6 +89,14 @@ export const TextContainer = styled.div`
 	width: 100%;
 	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.33));
 	color: ${({ theme }) => theme.colors.white};
+
+	@media screen and (max-width: 1100px) {
+		height: 40%;
+	}
+
+	@media screen and (max-width: 768px) {
+		height: 20%;
+	}
 `;
 
 export const BackgroundContainer = styled.div`
@@ -86,7 +119,6 @@ export const BackgroundContent = styled.div`
 
 export const BackgroundImage = styled(motion.img)<{ backgroundimage: string }>`
 	position: absolute;
-
 	// por algum motivo as imagens sempre são retornadas com uma borda branca
 	// fiz esta "gambiarra" para não aparecer
 	left: -2px;
@@ -125,5 +157,8 @@ export const TextBackground = styled.div`
 	right: 0;
 	width: 100%;
 	height: 66%;
+	@media screen and (max-width: 1100px) {
+		height: 80%;
+	}
 	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 `;

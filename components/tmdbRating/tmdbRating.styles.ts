@@ -33,6 +33,10 @@ export const RatingText = styled.div`
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 2.75em;
+
+	@media screen and (max-width: 768px) {
+		font-size: 2em;
+	}
 `;
 
 export const Rating = styled.div`
