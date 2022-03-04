@@ -20,7 +20,7 @@ export const Header: React.FC<HeaderI> = ({ activeTheme, themeSwitch }) => {
 	const theme = useTheme();
 
 	return (
-		<HeaderContainer>
+		<HeaderContainer data-testid="header">
 			<HeaderContent>
 				<ContentContainer>
 					<Link href="/home" passHref>

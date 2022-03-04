@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { MovieItem } from './movieItem';
 
 export default {
-	title: 'Movie Item',
+	title: 'Movie/Item',
 	component: MovieItem,
 	argTypes: {
 		title: {

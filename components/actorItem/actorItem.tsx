@@ -25,7 +25,7 @@ export const ActorItem: React.FC<ActorItemI> = ({ id, image, name, birthday }) =
 			<ActorItemContainer>
 				<ActorAvatar url={image} />
 				<ActorName>{name}</ActorName>
-				<ActorAge>{calcAge(birthday)}</ActorAge>
+				<ActorAge data-testid="actor-age">{calcAge(birthday)}</ActorAge>
 			</ActorItemContainer>
 		</Link>
 	);
