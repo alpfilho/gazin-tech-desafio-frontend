@@ -3,7 +3,7 @@
 exports[`ActorItem render actor item unchanged 1`] = `
 <div>
   <a
-    class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+    class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
     href="/actor-detail/1136406"
   >
     <div
@@ -23,12 +23,12 @@ exports[`ActorItem render actor item unchanged 1`] = `
       </span>
     </div>
     <div
-      class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+      class="ActorName-sc-1tfwwoc-1 fZJWul"
     >
       Tom Holland
     </div>
     <div
-      class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+      class="ActorAge-sc-1tfwwoc-2 iaCOqt"
       data-testid="actor-age"
     >
       26

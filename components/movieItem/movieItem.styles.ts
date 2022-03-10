@@ -11,6 +11,11 @@ export const MovieItemContainer = styled.a`
 	overflow: hidden;
 
 	background-color: ${({ theme }) => theme.background2};
+
+	@media screen and (max-width: 992px) {
+		border-radius: 0.75em;
+		width: 152px;
+	}
 `;
 
 export const ImageContainer = styled.div`

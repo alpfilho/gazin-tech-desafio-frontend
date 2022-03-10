@@ -68,6 +68,7 @@ export const RatingContainer = styled.div`
 	}
 
 	@media screen and (max-width: 768px) {
+		height: 80%;
 		padding-top: 1em;
 	}
 
@@ -97,6 +98,12 @@ export const TextContainer = styled.a`
 
 	@media screen and (max-width: 768px) {
 		height: 20%;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 	}
 `;
 

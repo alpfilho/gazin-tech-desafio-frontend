@@ -28,12 +28,20 @@ export const LeftControlButton = styled(ControlContainer)`
 	left: 0;
 	right: auto;
 	padding-left: 3em;
+
+	@media screen and (max-width: 992px) {
+		padding-left: 1em;
+	}
 `;
 
 export const RightControlButton = styled(ControlContainer)`
 	right: 0;
 	left: auto;
 	padding-right: 3em;
+
+	@media screen and (max-width: 992px) {
+		padding-right: 1em;
+	}
 `;
 
 export const ControlIconContainer = styled.div`
@@ -43,6 +51,11 @@ export const ControlIconContainer = styled.div`
 
 	width: 5em;
 	height: 5em;
+
+	@media screen and (max-width: 992px) {
+		width: 4em;
+		height: 4em;
+	}
 
 	background-color: rgba(0, 0, 0, 0.66);
 	border-radius: 50%;

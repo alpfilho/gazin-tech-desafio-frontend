@@ -19,18 +19,21 @@ export interface MovieItemI {
 
 export const MovieItem: React.FC<MovieItemI> = ({ id, title, image, releaseDate }) => {
 	const getDate = useCallback((date) => {
-		const today = new Date();
-		const release = new Date(date);
+		if (date) {
+			const today = new Date();
+			const release = new Date(date);
 
-		if (today <= release) {
-			const brazilDate = new Date(date).toLocaleString('pt-BR', {
-				timeZone: 'America/Sao_Paulo'
-			});
+			if (today <= release) {
+				const brazilDate = new Date(date).toLocaleString('pt-BR', {
+					timeZone: 'America/Sao_Paulo'
+				});
 
-			return brazilDate.split(' ')[0];
-		} else {
-			return release.getFullYear();
+				return brazilDate.split(' ')[0];
+			} else {
+				return release.getFullYear();
+			}
 		}
+		return '';
 	}, []);
 
 	return (

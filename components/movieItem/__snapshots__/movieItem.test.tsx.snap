@@ -3,14 +3,14 @@
 exports[`MovieItem movie item render unchanged 1`] = `
 <div>
   <a
-    class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+    class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
     href="/movie-detail/230896"
   >
     <div
       class="ImageContainer-sc-11o4gv2-1 cXNnZm"
     >
       <div
-        class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+        class="MoviePosterContainer-sc-i25oql-0 hAZleN"
       >
         <div
           class="PosterContent-sc-i25oql-1 eiTosH"

@@ -13,4 +13,8 @@ export const Title = styled.h1`
 	padding-bottom: 0.25em;
 
 	color: ${({ theme }) => theme.text};
+
+	@media screen and (max-width: 768px) {
+		font-size: 2em;
+	}
 `;

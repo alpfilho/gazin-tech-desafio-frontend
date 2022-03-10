@@ -5,6 +5,10 @@ export const MoviePosterContainer = styled.div`
 	overflow: hidden;
 	border-radius: 1em;
 	box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.33);
+
+	@media screen and (max-width: 992px) {
+		border-radius: 0.5em;
+	}
 `;
 
 export const PosterContent = styled.div`

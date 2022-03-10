@@ -6,11 +6,11 @@ exports[`Banner render Banner unchanged 1`] = `
     class="BannerContainer-sc-gyxm3s-0 hlxTxd"
   >
     <button
-      class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 CYGWr hKylEu"
+      class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 CYGWr kbLFOO"
       data-testid="slider-control"
     >
       <div
-        class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
       >
         <svg
           aria-hidden="true"
@@ -40,7 +40,7 @@ exports[`Banner render Banner unchanged 1`] = `
           class="Content-sc-yq2cgn-1 etbrxE"
         >
           <div
-            class="RatingContainer-sc-gyxm3s-2 hCuraR"
+            class="RatingContainer-sc-gyxm3s-2 gpsQyO"
           >
             <div
               class="RatingContainer-sc-1g1w7oy-0 eRwBjt"
@@ -123,7 +123,7 @@ exports[`Banner render Banner unchanged 1`] = `
             </div>
           </div>
           <a
-            class="TextContainer-sc-gyxm3s-3 cedUxo"
+            class="TextContainer-sc-gyxm3s-3 cIKcqj"
             href="/movie-detail/414906"
           >
             <div
@@ -131,12 +131,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 1; transform: translateX(0%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Batman
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Bruce Wayne é um jovem bilionário da cidade de Gotham City, Nova Jersey, que também age secretamente como o vigilante noturno Batman após o assassinato dos seus pais.
               </p>
@@ -146,12 +146,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Homem-Aranha: Sem Volta Para Casa
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.
               </p>
@@ -161,12 +161,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 King's Man: A Origem
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Quando uma série dos piores tiranos e gênios do crime da história se juntam para criar uma guerra que aniquilará milhões, um homem e seu pupilo precisam correr contra o tempo para pará-los.
               </p>
@@ -176,12 +176,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Agente das Sombras
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Confiança, identidade e o perigo do poder sem controle levam um agente secreto ao limite. Travis Block (Liam Neeson) vive e luta nas sombras. Um “consertador” autônomo do governo, Block é um homem perigoso cujas atribuições incluíam extrair agentes de situações ocultas. Quando Block descobre que um programa sombrio chamado Operação Unidade está abatendo cidadãos comuns por razões conhecidas apenas pelo seu supervisor, o chefe do FBI, Robinson (Aidan Quinn), ele pede a ajuda de uma jornalista (Raver-Lampman), mas seu passado e presente colidem quando seu filha e neta são ameaçadas. Agora Block precisa resgatar as pessoas que ama e expor a verdade para uma chance de redenção. Nada nem ninguém está seguro quando os segredos estão escondidos nas sombras.
               </p>
@@ -191,12 +191,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Amor, Sublime Amor
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Dois jovens de gangues rivais de Nova York se apaixonam, mas as tensões entre seus respectivos amigos se transformam em tragédia. Remake do filme de 1961.
               </p>
@@ -206,12 +206,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Pânico
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade.
               </p>
@@ -221,12 +221,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Contra o Gelo
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Dois homens lutam pela sobrevivência durante uma expedição à Groenlândia em busca de um mapa perdido. Baseado em uma história real ocorrida na Dinamarca em 1909.
               </p>
@@ -236,12 +236,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Sem Saída
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Darby Thorne é uma mulher que viaja devido a uma emergência familiar, fica presa em nevasca e é forçada a se abrigar numa área de descanso na estrada com um grupo de desconhecidos. Ao topar com uma garota sequestrada numa van, ela encara uma terrível luta de vida ou morte para descobrir quem é o sequestrador.
               </p>
@@ -251,12 +251,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 Os Piratas: Em Busca do Tesouro Perdido
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Durante a Dinastia Joseon, uma corajosa tripulação de piratas e bandidos luta contra adversidades, pistas intrigantes e rivais em busca do ouro real perdido no mar.
               </p>
@@ -266,12 +266,12 @@ exports[`Banner render Banner unchanged 1`] = `
               style="opacity: 0; transform: translateX(25%) translateZ(0);"
             >
               <h1
-                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 gtTvjR gctaaJ"
+                class="Title-sc-12jcw8v-0 Title-sc-421v6c-1 bJXsoN iqAyNe"
               >
                 O Massacre da Serra Elétrica: O Retorno de Leatherface
               </h1>
               <p
-                class="Synopsis-sc-421v6c-2 jooTuS"
+                class="Synopsis-sc-421v6c-2 drIQKv"
               >
                 Nesta sequência, um grupo de jovens decide dar vida nova a uma cidade fantasma no Texas, mas acaba se deparando com Leatherface, o famoso maníaco da serra elétrica.
               </p>
@@ -335,11 +335,11 @@ exports[`Banner render Banner unchanged 1`] = `
       </div>
     </div>
     <button
-      class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 CYGWr bQGCVZ"
+      class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 CYGWr fehyoi"
       data-testid="slider-control"
     >
       <div
-        class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
       >
         <svg
           aria-hidden="true"

@@ -13,12 +13,12 @@ exports[`ListActors actors list render unchanged 1`] = `
         style="opacity: 0;"
       />
       <button
-        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU hKylEu"
+        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU kbLFOO"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"
@@ -49,7 +49,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/17142"
             >
               <div
@@ -69,12 +69,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Paul Dano
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 38
@@ -85,7 +85,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1136406"
             >
               <div
@@ -105,12 +105,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Tom Holland
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 26
@@ -121,7 +121,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1972974"
             >
               <div
@@ -141,12 +141,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Isabel May
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 22
@@ -157,7 +157,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/224513"
             >
               <div
@@ -177,12 +177,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Ana de Armas
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 34
@@ -193,7 +193,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/2037"
             >
               <div
@@ -213,12 +213,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Cillian Murphy
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 46
@@ -229,7 +229,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/11288"
             >
               <div
@@ -249,12 +249,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Robert Pattinson
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 36
@@ -265,7 +265,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/37153"
             >
               <div
@@ -285,12 +285,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Zoë Kravitz
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 34
@@ -301,7 +301,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1290466"
             >
               <div
@@ -321,12 +321,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Barry Keoghan
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 30
@@ -337,7 +337,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1190668"
             >
               <div
@@ -357,12 +357,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Timothée Chalamet
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 27
@@ -373,7 +373,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/6384"
             >
               <div
@@ -393,12 +393,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Keanu Reeves
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 58
@@ -409,7 +409,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/90633"
             >
               <div
@@ -429,12 +429,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Gal Gadot
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 37
@@ -445,7 +445,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1522703"
             >
               <div
@@ -465,12 +465,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Hande Erçel
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 29
@@ -481,7 +481,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/130640"
             >
               <div
@@ -501,12 +501,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Hailee Steinfeld
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 26
@@ -517,7 +517,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/505710"
             >
               <div
@@ -537,12 +537,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Zendaya
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 26
@@ -553,7 +553,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1158"
             >
               <div
@@ -573,12 +573,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Al Pacino
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 82
@@ -589,7 +589,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/56734"
             >
               <div
@@ -609,12 +609,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Chloë Grace Moretz
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 25
@@ -625,7 +625,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/6614"
             >
               <div
@@ -645,12 +645,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Cole Hauser
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 47
@@ -661,7 +661,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1260401"
             >
               <div
@@ -681,12 +681,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Pataratida Patcharawirapong
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 38
@@ -697,7 +697,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/115440"
             >
               <div
@@ -717,12 +717,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Sydney Sweeney
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 25
@@ -733,7 +733,7 @@ exports[`ListActors actors list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              class="ActorItemContainer-sc-1tfwwoc-0 gfVZgR"
               href="/actor-detail/1172108"
             >
               <div
@@ -753,12 +753,12 @@ exports[`ListActors actors list render unchanged 1`] = `
                 </span>
               </div>
               <div
-                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+                class="ActorName-sc-1tfwwoc-1 fZJWul"
               >
                 Mckenna Grace
               </div>
               <div
-                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                class="ActorAge-sc-1tfwwoc-2 iaCOqt"
                 data-testid="actor-age"
               >
                 16
@@ -768,12 +768,12 @@ exports[`ListActors actors list render unchanged 1`] = `
         </div>
       </div>
       <button
-        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU bQGCVZ"
+        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU fehyoi"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"

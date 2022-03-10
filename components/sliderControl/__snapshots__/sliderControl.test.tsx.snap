@@ -3,11 +3,11 @@
 exports[`SliderControl Right slider control render unchanged 1`] = `
 <div>
   <button
-    class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 CYGWr bQGCVZ"
+    class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 CYGWr fehyoi"
     data-testid="slider-control"
   >
     <div
-      class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+      class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
     >
       <svg
         aria-hidden="true"
@@ -33,11 +33,11 @@ exports[`SliderControl Right slider control render unchanged 1`] = `
 exports[`SliderControl left slider control render unchanged 1`] = `
 <div>
   <button
-    class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 CYGWr hKylEu"
+    class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 CYGWr kbLFOO"
     data-testid="slider-control"
   >
     <div
-      class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+      class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
     >
       <svg
         aria-hidden="true"

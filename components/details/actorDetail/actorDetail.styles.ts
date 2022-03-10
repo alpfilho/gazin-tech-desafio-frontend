@@ -8,6 +8,14 @@ export const ActorProfile = styled.div`
 	align-items: center;
 	padding-top: 2em;
 	color: ${({ theme }) => theme.text};
+
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding-bottom: 1em;
+	}
 `;
 
 export const ActorAvatarContainer = styled.div``;
@@ -15,6 +23,11 @@ export const ActorAvatarContainer = styled.div``;
 export const ActorInfo = styled.div`
 	padding-left: 2em;
 	font-family: 'Roboto', sans-serif;
+
+	@media screen and (max-width: 768px) {
+		padding-top: 1em;
+		padding-left: 0;
+	}
 `;
 
 export const ActorName = styled(Title)`

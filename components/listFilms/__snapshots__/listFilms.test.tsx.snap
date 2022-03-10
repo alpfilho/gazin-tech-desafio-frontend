@@ -13,12 +13,12 @@ exports[`ListFilms movies list render unchanged 1`] = `
         style="opacity: 0;"
       />
       <button
-        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU hKylEu"
+        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU kbLFOO"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"
@@ -49,14 +49,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/634649"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -105,14 +105,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/414906"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -161,14 +161,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/833425"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -217,14 +217,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/568124"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -273,14 +273,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/476669"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -329,14 +329,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/646385"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -385,14 +385,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/800510"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -441,14 +441,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/890656"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -497,14 +497,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/524434"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -553,14 +553,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/928381"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -609,14 +609,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/597208"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -665,14 +665,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/774825"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -721,14 +721,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/585083"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -777,14 +777,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/632727"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -833,14 +833,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/783461"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -889,14 +889,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/512195"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -945,14 +945,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/438695"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1001,14 +1001,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/580489"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1057,14 +1057,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/624860"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1113,14 +1113,14 @@ exports[`ListFilms movies list render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/460458"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1168,12 +1168,12 @@ exports[`ListFilms movies list render unchanged 1`] = `
         </div>
       </div>
       <button
-        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU bQGCVZ"
+        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU fehyoi"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"

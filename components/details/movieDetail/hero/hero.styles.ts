@@ -1,6 +1,8 @@
 import { Container, Content } from 'components/contentContainer';
 import styled from 'styled-components';
 
+import { Title } from 'components/title';
+
 const backdropSize = '30vh';
 
 export const TitleContainer = styled.div`
@@ -10,11 +12,16 @@ export const TitleContainer = styled.div`
 	${Container} {
 		${Content} {
 			z-index: 1;
-			padding-top: 75px;
+			padding-top: 3.5em;
 			display: flex;
 			flex-direction: row;
 			justify-content: flex-start;
 			align-items: center;
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+				text-align: center;
+			}
 		}
 	}
 `;
@@ -30,6 +37,21 @@ export const TextContainer = styled.div`
 	justify-content: flex-start;
 	align-items: flex-start;
 	padding-left: 2em;
+	flex-grow: 1;
+
+	${Title} {
+		padding-top: 0.5em;
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-left: 0em;
+	}
 `;
 
 export const BackdropContainer = styled.div`

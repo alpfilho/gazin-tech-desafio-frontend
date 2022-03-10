@@ -9,7 +9,7 @@ exports[`Details actor detail render unchanged 1`] = `
       class="Content-sc-yq2cgn-1 etbrxE"
     >
       <div
-        class="ActorProfile-sc-ntgmf7-0 AOxeI"
+        class="ActorProfile-sc-ntgmf7-0 eCIBzg"
       >
         <div
           class="ActorAvatarContainer-sc-ntgmf7-1"
@@ -32,10 +32,10 @@ exports[`Details actor detail render unchanged 1`] = `
           </div>
         </div>
         <div
-          class="ActorInfo-sc-ntgmf7-2 kTrFMO"
+          class="ActorInfo-sc-ntgmf7-2 ZnmIr"
         >
           <h1
-            class="Title-sc-12jcw8v-0 ActorName-sc-ntgmf7-3 gtTvjR cVAIbM"
+            class="Title-sc-12jcw8v-0 ActorName-sc-ntgmf7-3 bJXsoN cVAIbM"
           >
             Tom Holland
           </h1>
@@ -60,7 +60,7 @@ exports[`Details actor detail render unchanged 1`] = `
       class="Content-sc-yq2cgn-1 etbrxE"
     >
       <h1
-        class="Title-sc-12jcw8v-0 gtTvjR"
+        class="Title-sc-12jcw8v-0 bJXsoN"
       >
         Biografia
       </h1>
@@ -86,7 +86,7 @@ exports[`Details actor detail render unchanged 1`] = `
       class="Content-sc-yq2cgn-1 etbrxE"
     >
       <h1
-        class="Title-sc-12jcw8v-0 gtTvjR"
+        class="Title-sc-12jcw8v-0 bJXsoN"
       >
         Filmografia
       </h1>
@@ -103,12 +103,12 @@ exports[`Details actor detail render unchanged 1`] = `
         style="opacity: 0;"
       />
       <button
-        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU hKylEu"
+        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU kbLFOO"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"
@@ -139,14 +139,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/315635"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -195,14 +195,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/340442"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -251,14 +251,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/335787"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -307,14 +307,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/499932"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -363,14 +363,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/508439"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -419,14 +419,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/544401"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -475,14 +475,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/429617"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -531,14 +531,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/634649"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -587,14 +587,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/626329"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -643,14 +643,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/402446"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -699,14 +699,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/412656"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -755,14 +755,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/431693"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -811,14 +811,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/758025"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -867,14 +867,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/806061"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -913,9 +913,7 @@ exports[`Details actor detail render unchanged 1`] = `
                 </div>
                 <div
                   class="DateContainer-sc-11o4gv2-4 dFJNdF"
-                >
-                  1969
-                </div>
+                />
               </div>
             </a>
           </div>
@@ -923,14 +921,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/912227"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -969,9 +967,7 @@ exports[`Details actor detail render unchanged 1`] = `
                 </div>
                 <div
                   class="DateContainer-sc-11o4gv2-4 dFJNdF"
-                >
-                  1969
-                </div>
+                />
               </div>
             </a>
           </div>
@@ -979,14 +975,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/80278"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1035,14 +1031,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/162215"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1091,14 +1087,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/314095"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1147,14 +1143,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/414017"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1203,14 +1199,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/411587"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1246,14 +1242,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/210479"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1302,14 +1298,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/418879"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1358,14 +1354,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/205775"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1414,14 +1410,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/299536"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1470,14 +1466,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/299534"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1526,14 +1522,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/448119"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1582,14 +1578,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/271110"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1638,14 +1634,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/298931"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1694,14 +1690,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/662151"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1750,14 +1746,14 @@ exports[`Details actor detail render unchanged 1`] = `
             class="ItemContainer-sc-1i49f8l-0 hcXqSn"
           >
             <a
-              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              class="MovieItemContainer-sc-11o4gv2-0 iQOHjT"
               href="/movie-detail/580489"
             >
               <div
                 class="ImageContainer-sc-11o4gv2-1 cXNnZm"
               >
                 <div
-                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                  class="MoviePosterContainer-sc-i25oql-0 hAZleN"
                 >
                   <div
                     class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1805,12 +1801,12 @@ exports[`Details actor detail render unchanged 1`] = `
         </div>
       </div>
       <button
-        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU bQGCVZ"
+        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU fehyoi"
         data-testid="slider-control"
         style="opacity: 0;"
       >
         <div
-          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+          class="ControlIconContainer-sc-ms3p6h-3 eAXRGx"
         >
           <svg
             aria-hidden="true"
@@ -1842,7 +1838,7 @@ exports[`Details actor detail render unchanged 1`] = `
 exports[`Details movie detail render unchanged 1`] = `
 <div>
   <div
-    class="TitleContainer-sc-1hf0cgt-0 hIuGxt"
+    class="TitleContainer-sc-1hf0cgt-0 feUuFo"
   >
     <div
       class="Container-sc-yq2cgn-0 leaVgY"
@@ -1854,7 +1850,7 @@ exports[`Details movie detail render unchanged 1`] = `
           class="PosterContainer-sc-1hf0cgt-1 hpZlqy"
         >
           <div
-            class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+            class="MoviePosterContainer-sc-i25oql-0 hAZleN"
           >
             <div
               class="PosterContent-sc-i25oql-1 eiTosH"
@@ -1883,10 +1879,10 @@ exports[`Details movie detail render unchanged 1`] = `
           </div>
         </div>
         <div
-          class="TextContainer-sc-1hf0cgt-2 hRhzVI"
+          class="TextContainer-sc-1hf0cgt-2 dhwzaB"
         >
           <h1
-            class="Title-sc-12jcw8v-0 gtTvjR"
+            class="Title-sc-12jcw8v-0 bJXsoN"
           >
             Homem-Aranha: Sem Volta Para Casa
           </h1>
@@ -2000,7 +1996,7 @@ exports[`Details movie detail render unchanged 1`] = `
       class="Content-sc-yq2cgn-1 etbrxE"
     >
       <h1
-        class="Title-sc-12jcw8v-0 gtTvjR"
+        class="Title-sc-12jcw8v-0 bJXsoN"
       >
         Visão Geral
       </h1>
@@ -2013,7 +2009,7 @@ exports[`Details movie detail render unchanged 1`] = `
       class="Content-sc-yq2cgn-1 etbrxE"
     >
       <p
-        class="MovieOverview-sc-14b5ztx-0 iydRqr"
+        class="MovieOverview-sc-14b5ztx-0 hkKdrc"
       >
         Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.
       </p>

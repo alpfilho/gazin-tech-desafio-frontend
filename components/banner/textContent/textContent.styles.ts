@@ -22,6 +22,7 @@ export const Title = styled(TitleComponent)`
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	color: ${({ theme }) => theme.colors.white};
 
 	@media screen and (max-width: 1100px) {
 		font-size: 4em;
@@ -29,7 +30,7 @@ export const Title = styled(TitleComponent)`
 
 	@media screen and (max-width: 768px) {
 		text-align: center;
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 `;
 
@@ -44,6 +45,7 @@ export const Synopsis = styled.p`
 	overflow: hidden;
 	-webkit-line-clamp: 4;
 	-webkit-box-orient: vertical;
+	color: ${({ theme }) => theme.colors.white};
 
 	@media screen and (max-width: 768px) {
 		display: none;
