@@ -4,7 +4,7 @@
 
 ### 💻 [Resultado Final](https://gazinfilms.vercel.app):
 
-[![GazinFilm](https://raw.githubusercontent.com/gazin-tech/Desafio-FrontEnd/main/.github/image-main.png?raw=true)](https://gazinfilms.vercel.app)
+[![GazinFilm](.github/gazin-films-result.png?raw=true)](https://gazinfilms.vercel.app)
 
 ## 📲 Destaques do Projeto:
 
