@@ -1,16 +1,28 @@
 import React from 'react';
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import Head from 'next/head';
 
-import type { ItemMovieData } from 'lib/types';
+import type { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import type { MovieDetailData } from 'lib/types';
 
 import { getApiConfiguration } from 'lib/getApiConfiguration';
 import { getPopularMovies } from 'lib/getPopularMovies';
 import { getComingSoonMovies } from 'lib/getComingSoonMovies';
 import { getMovieDetail } from 'lib/getMovieDetail';
 import { makePosterPath } from 'lib/utils/makePosterPath';
+import { makeBackdropPath } from 'lib/utils/makeBackdropPath';
 
-const MovieDetail: NextPage<{ movieDetail: ItemMovieData }> = ({ movieDetail }) => (
-	<h1>{movieDetail.title}</h1>
+import { AppPage } from 'components/appPage';
+import { Details } from 'components/details';
+
+const MovieDetail: NextPage<{ movieDetail: MovieDetailData }> = ({ movieDetail }) => (
+	<AppPage>
+		<Head>
+			<title>{`${
+				movieDetail.title ? `${movieDetail.title} | ` : 'Não encontrado | '
+			}GazinFilms`}</title>
+		</Head>
+		<Details type="movie" movie={movieDetail} />
+	</AppPage>
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -28,21 +40,35 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
 	if (params && typeof params.id === 'string') {
-		const apiConfig = await getApiConfiguration();
-		const movieData = await getMovieDetail(params.id);
+		try {
+			const {
+				images: { base_url }
+			} = await getApiConfiguration();
 
-		const movieDetail = {
-			id: movieData.id,
-			title: movieData.title,
-			poster: makePosterPath(movieData.poster_path, apiConfig.images.base_url),
-			releaseDate: movieData.release_date
-		} as ItemMovieData;
+			const { id, title, poster_path, backdrop_path, overview, vote_average } =
+				await getMovieDetail(params.id);
 
-		return {
-			props: {
-				movieDetail
-			}
-		};
+			const movieDetail = {
+				id,
+				title,
+				poster: makePosterPath(poster_path, base_url),
+				backdrop: makeBackdropPath(backdrop_path, base_url),
+				overview,
+				rating: vote_average
+			} as MovieDetailData;
+
+			return {
+				props: {
+					movieDetail
+				},
+				/* Refaz a página a cada 24 horas */
+				revalidate: 24 * 60 * 60
+			};
+		} catch (error) {
+			return {
+				notFound: true
+			};
+		}
 	}
 
 	return {

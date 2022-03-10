@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieItem movie item render unchanged 1`] = `
+<div>
+  <a
+    class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+    href="/movie-detail/230896"
+  >
+    <div
+      class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+    >
+      <div
+        class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+      >
+        <div
+          class="PosterContent-sc-i25oql-1 eiTosH"
+        >
+          <div
+            class="MovieImage-sc-i25oql-2 ja-dEVy"
+          >
+            <div
+              class="MovieImageContent-sc-i25oql-3 fokrKX"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  alt=""
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                />
+                <noscript />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="TextContainer-sc-11o4gv2-2 TnVlx"
+    >
+      <div
+        class="Title-sc-11o4gv2-3 jgkVYj"
+        title="Homem de Ferro e Hulk - Super-Heróis Unidos"
+      >
+        Homem de Ferro e Hulk - Super-Heróis Unidos
+      </div>
+      <div
+        class="DateContainer-sc-11o4gv2-4 dFJNdF"
+      >
+        2013
+      </div>
+    </div>
+  </a>
+</div>
+`;

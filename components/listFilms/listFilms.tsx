@@ -1,14 +1,19 @@
 import React from 'react';
 
-import type { ItemMovieData } from 'lib/types';
+import type { MovieItemData } from 'lib/types';
 
 import { Carousel } from 'components/carousel';
 
+import { ListFilmsContainer } from './listFilms.styles';
+
 interface ListFilmsI {
-	movies: ItemMovieData[];
-	upcomingRelease?: boolean;
+	movies: MovieItemData[];
 }
 
-export const ListFilms: React.FC<ListFilmsI> = ({ movies, upcomingRelease }) => {
-	return <Carousel type="movie" data={movies} upcomingRelease={upcomingRelease} />;
+export const ListFilms: React.FC<ListFilmsI> = ({ movies }) => {
+	return (
+		<ListFilmsContainer>
+			<Carousel type="movie" data={movies} />
+		</ListFilmsContainer>
+	);
 };

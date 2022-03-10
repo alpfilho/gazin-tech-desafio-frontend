@@ -13,3 +13,9 @@ export const TmdbLogoContainer = styled.div`
 		height: auto;
 	}
 `;
+
+/* storybook */
+
+export const TmdbLogoStoryDecorator = styled.div`
+	min-width: 300px;
+`;

@@ -3,7 +3,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Header } from './header';
 
 export default {
-	title: 'Header',
+	title: 'Components/Header',
 	component: Header,
 	argTypes: {
 		themeSwitch: {

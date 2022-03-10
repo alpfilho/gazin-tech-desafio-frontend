@@ -1,48 +1,81 @@
-import React, { useRef } from 'react';
+import React, { useRef, useCallback, useEffect, Dispatch, SetStateAction } from 'react';
 
-import type { ItemActorData, ItemMovieData } from 'lib/types';
+import type { ActorItemData, MovieItemData } from 'lib/types';
 
 import { ActorItem } from 'components/actorItem';
 import { MovieItem } from 'components/movieItem';
 
 import { Item } from './item';
 
-import { Container, Content } from './itemsContainer.styles';
+import { Content } from './itemsContainer.styles';
 
 interface ItemsContainerI {
 	type: 'actor' | 'movie';
-	data: ItemActorData[] | ItemMovieData[];
-	upcomingRelease?: boolean;
+	data: ActorItemData[] | MovieItemData[];
+	setContentWidth: Dispatch<SetStateAction<number>>;
+	setItemWidth: Dispatch<SetStateAction<number>>;
 }
 
-export const ItemsContainer: React.FC<ItemsContainerI> = ({ type, data, upcomingRelease }) => {
-	const containerRef = useRef<HTMLDivElement>(null);
+export const ItemsContainer: React.FC<ItemsContainerI> = ({
+	type,
+	data,
+	setContentWidth,
+	setItemWidth
+}) => {
+	const contentRef = useRef<HTMLDivElement>(null);
 
-	const totalItems = data.length;
+	const getContentSize = useCallback(() => {
+		if (contentRef.current) {
+			return contentRef.current.getBoundingClientRect();
+		}
+		return { width: 0, height: 0 };
+	}, []);
+
+	const updateContentSize = useCallback(() => {
+		setContentWidth(getContentSize().width);
+	}, [getContentSize, setContentWidth]);
+
+	/**
+	 * Iniciamos calculando o tamanho total disponível para os elementos
+	 */
+	useEffect(() => {
+		updateContentSize();
+	}, [updateContentSize]);
+
+	/**
+	 * Faço o cálculo novamente ao redimensionar a tela
+	 */
+	const onResize = useCallback(() => {
+		updateContentSize();
+	}, [updateContentSize]);
+
+	useEffect(() => {
+		window.addEventListener('resize', onResize, { passive: true });
+
+		return () => {
+			window.removeEventListener('resize', onResize);
+		};
+	}, [onResize]);
 
 	return (
-		<Content>
-			{data.map((item) => {
+		<Content ref={contentRef}>
+			{data.map((item, index) => {
+				const isFirstItem = index === 0;
+
 				if (type === 'actor') {
-					const { id, name, profile, birthday } = item as ItemActorData;
+					const { id, name, profile, birthday } = item as ActorItemData;
 
 					return (
-						<Item key={id}>
+						<Item key={id} setItemWidth={setItemWidth} isFirstItem={isFirstItem}>
 							<ActorItem id={id} name={name} image={profile} birthday={birthday} />
 						</Item>
 					);
 				} else {
-					const { id, title, poster, releaseDate } = item as ItemMovieData;
+					const { id, title, poster, releaseDate } = item as MovieItemData;
 
 					return (
-						<Item key={id}>
-							<MovieItem
-								id={id}
-								title={title}
-								image={poster}
-								releaseDate={releaseDate}
-								upcomingRelease={upcomingRelease}
-							/>
+						<Item key={id} setItemWidth={setItemWidth} isFirstItem={isFirstItem}>
+							<MovieItem id={id} title={title} image={poster} releaseDate={releaseDate} />
 						</Item>
 					);
 				}

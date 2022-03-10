@@ -4,39 +4,36 @@ export const MovieItemContainer = styled.a`
 	display: flex;
 	flex-direction: column;
 
-	width: 192px;
+	width: 216px;
 	height: auto;
 
-	border-radius: 0.5em;
+	border-radius: 1.5em;
 	overflow: hidden;
 
-	background-color: #050e12;
+	background-color: ${({ theme }) => theme.background2};
 `;
 
 export const ImageContainer = styled.div`
 	position: relative;
-	width: 192px;
-	height: calc(192px * 1.48);
-
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center center;
-	}
+	width: 100%;
+	padding: 0.5em;
 `;
 
 export const TextContainer = styled.div`
-	padding: 1em;
-	color: #b6b6b6;
+	padding: 0.25em 1em 1em 1em;
+	color: ${({ theme }) => theme.text};
 `;
 
 export const Title = styled.div`
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 1.125em;
+
+	overflow: hidden;
 	white-space: nowrap;
-	color: #b6b6b6;
+	text-overflow: ellipsis;
+
+	color: ${({ theme }) => theme.text};
 `;
 
 export const DateContainer = styled.div`

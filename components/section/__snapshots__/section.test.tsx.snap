@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section section render unchanged 1`] = `
+<div>
+  <section
+    class="SectionContainer-sc-cxauh6-0 eLHtVq"
+  >
+    <h1>
+      Example Content
+    </h1>
+  </section>
+</div>
+`;

@@ -1,1 +1,0 @@
-export { DeviceSwitcher } from './deviceSwitcher';

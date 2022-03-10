@@ -5,6 +5,7 @@ export const ActorItemContainer = styled.a`
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	color: ${({ theme }) => theme.text};
 `;
 
 export const ActorName = styled.div`

@@ -1,6 +1,6 @@
-import { MovieApiData } from './types';
+import { MovieDetailApiData } from './types';
 
-export const getMovieDetail = async (id: number | string): Promise<MovieApiData> => {
+export const getMovieDetail = async (id: number | string): Promise<MovieDetailApiData> => {
 	return new Promise(async (resolve, reject) => {
 		try {
 			const movieDataResponse = await fetch(

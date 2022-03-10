@@ -9,9 +9,7 @@ export const getApiConfiguration = async (): Promise<ApiConfiguration> => {
 			const apiConfigResponse = await fetch(
 				`https://api.themoviedb.org/3/configuration?api_key=${process.env.TMDB_API_KEY}`
 			);
-
 			const apiConfig = await apiConfigResponse.json();
-
 			resolve({
 				images: apiConfig.images
 			});

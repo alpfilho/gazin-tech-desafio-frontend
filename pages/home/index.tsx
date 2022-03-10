@@ -2,23 +2,23 @@ import React from 'react';
 import Head from 'next/head';
 
 import type { GetStaticProps, NextPage } from 'next';
-import type { BannerMovieData, ItemActorData, ItemMovieData } from 'lib/types';
+import type { BannerMovieData, ActorItemData, MovieItemData } from 'lib/types';
 
 import { getHomeData } from 'lib/getHomeData';
 
 import { AppPage } from 'components/appPage';
 import { Banner } from 'components/banner';
 import { Section } from 'components/section';
+import { ContentContainer } from 'components/contentContainer';
 import { Title } from 'components/title';
 import { ListFilms } from 'components/listFilms';
 import { ListActors } from 'components/listActors';
-import { ContentContainer } from 'components/contentContainer';
 
 const Home: NextPage<{
 	bannerMovies: BannerMovieData[];
-	popularMovies: ItemMovieData[];
-	comingSoonMovies: ItemMovieData[];
-	popularActors: ItemActorData[];
+	popularMovies: MovieItemData[];
+	comingSoonMovies: MovieItemData[];
+	popularActors: ActorItemData[];
 }> = ({ bannerMovies, popularMovies, comingSoonMovies, popularActors }) => (
 	<AppPage>
 		<Head>
@@ -29,7 +29,7 @@ const Home: NextPage<{
 			<ContentContainer>
 				<Title>Próximos Lançamentos</Title>
 			</ContentContainer>
-			<ListFilms movies={comingSoonMovies} upcomingRelease />
+			<ListFilms movies={comingSoonMovies} />
 		</Section>
 		<Section>
 			<ContentContainer>

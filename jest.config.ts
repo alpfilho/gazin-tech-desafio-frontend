@@ -3,7 +3,11 @@ import type { Config } from '@jest/types';
 const config: Config.InitialOptions = {
 	clearMocks: true,
 	collectCoverage: true,
-	collectCoverageFrom: ['**/*.{js,jsx,ts,tsx}', '!**/*.d.ts', '!**/node_modules/**'],
+	collectCoverageFrom: [
+		'<rootDir>/components/**/*.{js,jsx,ts,tsx}',
+		'!**/*.d.ts',
+		'!**/node_modules/**'
+	],
 	coverageDirectory: 'coverage',
 	moduleNameMapper: {
 		'^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',

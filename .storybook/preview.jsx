@@ -1,6 +1,7 @@
+import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
+import addons from '@storybook/addons';
 import { themes } from '@storybook/theming';
-import { useDarkMode } from 'storybook-dark-mode';
 
 import { AppThemeDark, AppThemeLight } from '../pages/_app.theme';
 
@@ -24,13 +25,45 @@ export const parameters = {
 			color: /(background|color)$/i,
 			date: /Date$/
 		}
+	},
+	options: {
+		storySort: {
+			order: [
+				'Movie',
+				'Actor',
+				'Home',
+				'Components',
+				[
+					'Logo',
+					'Header',
+					'Title',
+					'List Actors',
+					'List Films',
+					'List Results',
+					'Details',
+					'Tmdb Rating',
+					'Tmdb Logo',
+					'Carousel',
+					'Slider Control',
+					'Footer'
+				],
+				'Layout'
+			]
+		}
 	}
 };
 
+const channel = addons.getChannel();
+
 function ThemeWrapper({ children }) {
-	return (
-		<ThemeProvider theme={useDarkMode() ? AppThemeDark : AppThemeLight}>{children}</ThemeProvider>
-	);
+	const [isDark, setDark] = useState(false);
+
+	useEffect(() => {
+		channel.on('DARK_MODE', setDark);
+		return () => channel.off('DARK_MODE', setDark);
+	}, [channel, setDark]);
+
+	return <ThemeProvider theme={isDark ? AppThemeDark : AppThemeLight}>{children}</ThemeProvider>;
 }
 
 export const decorators = [

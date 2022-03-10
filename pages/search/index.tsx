@@ -2,15 +2,20 @@ import React, { useEffect, useState } from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import useSWR from 'swr';
+
+import { fetcher } from 'lib/fetcher';
 
 import { AppPage } from 'components/appPage';
-import { ListResults } from 'components/listResults';
 import { Section } from 'components/section';
+import { ContentContainer } from 'components/contentContainer';
 import { Title } from 'components/title';
+import { ListResults } from 'components/listResults';
 
 const Search: NextPage = () => {
 	const { query: urlQuery } = useRouter();
 	const [searchString, setSearchString] = useState('');
+	const { data } = useSWR(`/api/search?query=${searchString}`, fetcher);
 
 	useEffect(() => {
 		const { query } = urlQuery;
@@ -22,18 +27,17 @@ const Search: NextPage = () => {
 	}, [urlQuery]);
 
 	return (
-		<>
+		<AppPage>
 			<Head>
 				<title>Busca | GazinFilms</title>
 			</Head>
-			<AppPage>
-				<Section>
+			<Section>
+				<ContentContainer>
 					<Title>Resultados</Title>
-				</Section>
-				<h1>{searchString}</h1>
-				<ListResults />
-			</AppPage>
-		</>
+				</ContentContainer>
+			</Section>
+			<ListResults results={data} search={searchString} />
+		</AppPage>
 	);
 };
 

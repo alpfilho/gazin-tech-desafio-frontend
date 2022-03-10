@@ -3,7 +3,11 @@ import React from 'react';
 export const TmdbLogo: React.FC<{ type: 'primary-short' | 'alt-short' }> = ({ type }) => {
 	if (type === 'primary-short') {
 		return (
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.24 81.52">
+			<svg
+				data-testid="tmdb-logo-primary-short"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 190.24 81.52"
+			>
 				<defs>
 					<linearGradient
 						id="imdb-logo-gradient-1"
@@ -28,7 +32,11 @@ export const TmdbLogo: React.FC<{ type: 'primary-short' | 'alt-short' }> = ({ ty
 		);
 	} else {
 		return (
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.42 35.52">
+			<svg
+				data-testid="tmdb-logo-alt-short"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 273.42 35.52"
+			>
 				<defs>
 					<linearGradient
 						id="imdb-logo-gradient-2"
@@ -53,5 +61,5 @@ export const TmdbLogo: React.FC<{ type: 'primary-short' | 'alt-short' }> = ({ ty
 		);
 	}
 
-	return <div></div>;
+	return null;
 };

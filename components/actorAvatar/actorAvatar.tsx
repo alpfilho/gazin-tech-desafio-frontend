@@ -7,6 +7,9 @@ interface ActorAvatarI {
 	url: string | null;
 }
 
+/**
+ * Componente que renderiza a imagem arredondada de perfil de um ator
+ */
 export const ActorAvatar: React.FC<ActorAvatarI> = ({ url }) => {
 	return (
 		<ActorAvatarContainer>

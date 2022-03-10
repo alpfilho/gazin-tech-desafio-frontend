@@ -4,12 +4,9 @@ import { Container, Content } from 'components/contentContainer';
 
 export const FooterContainer = styled.footer`
 	width: 100%;
-	height: auto;
 	color: ${(props) => props.theme.text};
 	background-color: ${(props) => props.theme.background};
 	transition: color 250ms linear, background-color 250ms linear;
-
-	padding-top: 1.5em;
 	box-shadow: 0 -1em 10em rgba(0, 0, 0, 0.33);
 `;
 
@@ -19,6 +16,12 @@ export const LogosContainer = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
+
+	@media screen and (max-width: 992px) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 `;
 
 export const LogoBox = styled.a`
@@ -28,6 +31,7 @@ export const LogoBox = styled.a`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 1.5em;
 `;
 
 export const TmdbLogoBox = styled(LogoBox)`
@@ -35,8 +39,12 @@ export const TmdbLogoBox = styled(LogoBox)`
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	text-align: center;
+	padding-top: 1.5em;
 
 	span {
+		transition: color 250ms linear;
+		color: ${(props) => props.theme.text};
 		font-size: 1em;
 		padding-bottom: 0.5em;
 	}
@@ -45,9 +53,12 @@ export const TmdbLogoBox = styled(LogoBox)`
 export const SignatureContainer = styled.div`
 	margin-top: 2em;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.1);
+	color: ${(props) => props.theme.text};
+	background-color: ${(props) => props.theme.background};
+	box-shadow: -0.2em 0 2em rgba(0, 0, 0, 0.33);
 	padding-top: 1em;
 	padding-bottom: 1em;
+	transition: color 250ms linear, background-color 250ms linear;
 
 	${Container} {
 		${Content} {
@@ -55,6 +66,11 @@ export const SignatureContainer = styled.div`
 			justify-content: center;
 			align-items: center;
 			white-space: pre;
+
+			a {
+				transition: color 250ms linear;
+				color: ${(props) => props.theme.text};
+			}
 		}
 	}
 `;

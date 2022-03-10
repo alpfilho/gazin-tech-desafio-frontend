@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header render header unchanged 1`] = `
+exports[`Header header render unchanged 1`] = `
 <div>
   <header
     class="HeaderContainer-sc-17fiyp8-0 eDZhvJ"
@@ -21,6 +21,7 @@ exports[`Header render header unchanged 1`] = `
           >
             <svg
               class="LogoContainer-sc-1qw03iv-0 leVVGK"
+              data-testid="gazin-logo"
               fill="none"
               viewBox="0 0 909 111"
               xmlns="http://www.w3.org/2000/svg"

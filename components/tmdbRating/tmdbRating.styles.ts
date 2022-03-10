@@ -30,6 +30,8 @@ export const RatingText = styled.div`
 
 	white-space: nowrap;
 
+	color: ${({ theme }) => theme.text};
+
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 2.75em;

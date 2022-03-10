@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentContainer render content container unchanged 1`] = `
+<div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <h1>
+        Example Content
+      </h1>
+    </div>
+  </div>
+</div>
+`;

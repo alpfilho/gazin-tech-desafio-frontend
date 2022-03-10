@@ -14,7 +14,6 @@ export type ApiConfiguration = {
 };
 
 export type MovieApiData = {
-	media_type: 'movie';
 	id: number;
 	title: string;
 	overview: string;
@@ -32,14 +31,32 @@ export type BannerMovieData = {
 	backdrop: string;
 };
 
-export type ItemMovieData = {
+export type MovieItemData = {
 	id: number;
 	title: string;
 	poster: string;
-	releaseDate: string;
+	releaseDate: string | null;
 };
 
-export type ActorApiData = {
+export type MovieDetailApiData = {
+	id: number;
+	title: string;
+	overview: string;
+	poster_path: string;
+	backdrop_path: string;
+	vote_average: number;
+};
+
+export type MovieDetailData = {
+	id: number;
+	title: string;
+	overview: string;
+	poster: string;
+	backdrop: string;
+	rating: number;
+};
+
+export type ActorItemApiData = {
 	id: number;
 	name: string;
 	profile_path: string | null;
@@ -66,10 +83,10 @@ export type ActorDetailData = {
 	birthday: string;
 	biography: string;
 	placeOfBirth: string;
-	filmography: ItemMovieData[];
+	filmography: MovieItemData[];
 };
 
-export type ItemActorData = {
+export type ActorItemData = {
 	id: number;
 	name: string;
 	profile: string;

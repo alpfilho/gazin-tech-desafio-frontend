@@ -1,0 +1,1014 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListResults search empty result render unchanged 1`] = `
+<div>
+  <div
+    class="ListResultsContainer-sc-12sfuhe-0 jiKxbZ"
+  >
+    <div
+      class="Container-sc-yq2cgn-0 leaVgY"
+    >
+      <div
+        class="Content-sc-yq2cgn-1 etbrxE"
+      >
+        <div
+          class="ResultText-sc-12sfuhe-2 bKoQAZ"
+        >
+          Nenhum resultado para "Homem de Gelatina"
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListResults search loding render unchanged 1`] = `
+<div>
+  <div
+    class="ListResultsContainer-sc-12sfuhe-0 jiKxbZ"
+  >
+    <div
+      class="Container-sc-yq2cgn-0 leaVgY"
+    >
+      <div
+        class="Content-sc-yq2cgn-1 etbrxE"
+      >
+        <div
+          class="ResultText-sc-12sfuhe-2 bKoQAZ"
+        >
+          Carregando
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListResults search result render unchanged 1`] = `
+<div>
+  <div
+    class="ListResultsContainer-sc-12sfuhe-0 jiKxbZ"
+  >
+    <div
+      class="Container-sc-yq2cgn-0 leaVgY"
+    >
+      <div
+        class="Content-sc-yq2cgn-1 etbrxE"
+      >
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/230896"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro e Hulk - Super-Heróis Unidos"
+              >
+                Homem de Ferro e Hulk - Super-Heróis Unidos
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2013
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/284274"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro e o Capitão América Super-Heróis Unidos"
+              >
+                Homem de Ferro e o Capitão América Super-Heróis Unidos
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2014
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/10138"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro 2"
+              >
+                Homem de Ferro 2
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2010
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/1726"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro"
+              >
+                Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2008
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/635802"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Elon Musk: O Verdadeiro Homem de Ferro"
+              >
+                Elon Musk: O Verdadeiro Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2018
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/169934"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro: A Batalha Contra Ezekiel Stane"
+              >
+                Homem de Ferro: A Batalha Contra Ezekiel Stane
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2013
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/68721"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Homem de Ferro 3"
+              >
+                Homem de Ferro 3
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2013
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/31675"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Cromwell, O Homem de Ferro"
+              >
+                Cromwell, O Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1970
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/13647"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Invencível Homem de Ferro"
+              >
+                O Invencível Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2007
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/225"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem de Ferro"
+              >
+                O Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1981
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/41428"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="Tetsuo: O Homem de Ferro"
+              >
+                Tetsuo: O Homem de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1989
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/97430"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem com Punhos de Ferro"
+              >
+                O Homem com Punhos de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2012
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/9313"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem da Máscara de Ferro"
+              >
+                O Homem da Máscara de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1998
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/321494"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem com Punhos de Ferro 2"
+              >
+                O Homem com Punhos de Ferro 2
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2015
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/43836"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem da Máscara de Ferro"
+              >
+                O Homem da Máscara de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1939
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/4199"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem da Máscara de Ferro"
+              >
+                O Homem da Máscara de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                1977
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="ResultContainer-sc-12sfuhe-1 faTCoh"
+        >
+          <a
+            class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+            href="/movie-detail/339259"
+          >
+            <div
+              class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+            >
+              <div
+                class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+              >
+                <div
+                  class="PosterContent-sc-i25oql-1 eiTosH"
+                >
+                  <div
+                    class="MovieImage-sc-i25oql-2 ja-dEVy"
+                  >
+                    <div
+                      class="MovieImageContent-sc-i25oql-3 fokrKX"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt=""
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="TextContainer-sc-11o4gv2-2 TnVlx"
+            >
+              <div
+                class="Title-sc-11o4gv2-3 jgkVYj"
+                title="O Homem do Coração de Ferro"
+              >
+                O Homem do Coração de Ferro
+              </div>
+              <div
+                class="DateContainer-sc-11o4gv2-4 dFJNdF"
+              >
+                2017
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

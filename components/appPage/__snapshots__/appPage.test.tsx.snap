@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppPage render AppPage unchanged 1`] = `
+<div>
+  <main
+    class="AppPageContainer-sc-wxajy8-0 Tyabz"
+  >
+    <h1>
+      Example Content
+    </h1>
+  </main>
+</div>
+`;

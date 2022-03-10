@@ -12,6 +12,9 @@ export interface ActorItemI {
 	birthday: string;
 }
 
+/**
+ * Um componente que exibe a imagem, nome e idade de um ator
+ */
 export const ActorItem: React.FC<ActorItemI> = ({ id, image, name, birthday }) => {
 	const calcAge = useCallback((birthday) => {
 		const todayDate = new Date();

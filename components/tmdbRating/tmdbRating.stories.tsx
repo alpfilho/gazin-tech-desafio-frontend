@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { TmdbRating } from './tmdbRating';
 
 export default {
-	title: 'Tmdb Rating',
+	title: 'Components/Tmdb Rating',
 	component: TmdbRating,
 	argTypes: {
 		rating: {
@@ -14,6 +14,8 @@ export default {
 	}
 } as ComponentMeta<typeof TmdbRating>;
 
-export const Default: ComponentStory<typeof TmdbRating> = ({ rating }) => (
-	<TmdbRating rating={rating || 0} />
-);
+export const Default: ComponentStory<typeof TmdbRating> = (args) => <TmdbRating {...args} />;
+
+Default.args = {
+	rating: 0
+};

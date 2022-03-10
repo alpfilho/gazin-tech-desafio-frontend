@@ -1,0 +1,1 @@
+export { ActorDetail } from './actorDetail';

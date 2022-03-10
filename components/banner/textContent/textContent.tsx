@@ -1,28 +1,19 @@
-import React, { MutableRefObject, useEffect } from 'react';
-import { useAnimation, useTransform } from 'framer-motion';
+import React, { MutableRefObject } from 'react';
 
 import { TextContentContainer, Synopsis, Title } from './textContent.styles';
 
-interface TextContentI {
+export const TextContent: React.FC<{
 	prevIndexRef: MutableRefObject<number>;
-	itemIndex: number;
 	activeSlide: number;
 	slideLength: number;
+	itemIndex: number;
 	title: string;
 	overview: string;
-}
-
-export const TextContent: React.FC<TextContentI> = ({
-	prevIndexRef,
-	itemIndex,
-	activeSlide,
-	slideLength,
-	title,
-	overview
-}) => {
+}> = ({ prevIndexRef, itemIndex, activeSlide, slideLength, title, overview }) => {
 	const state = activeSlide === itemIndex ? 'active' : 'hidden';
 	const prevSlide = prevIndexRef.current;
 
+	/* Ilusão de loop: */
 	let isRightDirection;
 
 	if (activeSlide === slideLength - 1) {

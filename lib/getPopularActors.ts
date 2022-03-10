@@ -1,9 +1,9 @@
-import { ActorApiData } from './types';
+import { ActorItemApiData } from './types';
 
 /**
  * Retorna os atores populares. Cada página da API tem o tamanho fixo de 20 resultados. Paginamos de forma independente no front-end.
  */
-export const getPopularActors = async (page = 1): Promise<ActorApiData[]> => {
+export const getPopularActors = async (page = 1): Promise<ActorItemApiData[]> => {
 	return new Promise(async (resolve, reject) => {
 		try {
 			const actorsDataResponse = await fetch(

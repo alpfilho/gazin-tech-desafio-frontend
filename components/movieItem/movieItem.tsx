@@ -1,5 +1,4 @@
 import React, { useCallback } from 'react';
-import Image from 'next/image';
 
 import {
 	MovieItemContainer,
@@ -9,46 +8,40 @@ import {
 	DateContainer
 } from './movieItem.styles';
 import Link from 'next/link';
+import { MoviePoster } from 'components/moviePoster';
 
 export interface MovieItemI {
 	id: number;
 	title: string;
 	image: string;
-	releaseDate: string;
-	upcomingRelease?: boolean;
+	releaseDate: string | null;
 }
 
-export const MovieItem: React.FC<MovieItemI> = ({
-	id,
-	title,
-	image,
-	releaseDate,
-	upcomingRelease
-}) => {
-	const releaseText = useCallback((releaseDate) => {
-		const brazilDate = new Date(releaseDate).toLocaleString('pt-BR', {
-			timeZone: 'America/Sao_Paulo'
-		});
+export const MovieItem: React.FC<MovieItemI> = ({ id, title, image, releaseDate }) => {
+	const getDate = useCallback((date) => {
+		const today = new Date();
+		const release = new Date(date);
 
-		return brazilDate.split(' ')[0];
-	}, []);
+		if (today <= release) {
+			const brazilDate = new Date(date).toLocaleString('pt-BR', {
+				timeZone: 'America/Sao_Paulo'
+			});
 
-	const getYear = useCallback((releaseDate) => {
-		const data = new Date(releaseDate);
-		return data.getFullYear();
+			return brazilDate.split(' ')[0];
+		} else {
+			return release.getFullYear();
+		}
 	}, []);
 
 	return (
 		<Link href={`/movie-detail/${encodeURIComponent(id)}`} passHref>
 			<MovieItemContainer>
 				<ImageContainer>
-					{image && <Image src={image} alt="Poster do Filme" layout="fill" />}
+					<MoviePoster url={image} />
 				</ImageContainer>
 				<TextContainer>
-					<Title>{title}</Title>
-					<DateContainer>
-						{upcomingRelease ? releaseText(releaseDate) : getYear(releaseDate)}
-					</DateContainer>
+					<Title title={title}>{title}</Title>
+					<DateContainer>{getDate(releaseDate)}</DateContainer>
 				</TextContainer>
 			</MovieItemContainer>
 		</Link>

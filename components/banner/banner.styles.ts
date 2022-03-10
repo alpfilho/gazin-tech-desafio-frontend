@@ -80,7 +80,8 @@ export const RatingContainer = styled.div`
 	}
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled.a`
+	display: block;
 	position: relative;
 	isolation: isolate;
 	height: 40%;

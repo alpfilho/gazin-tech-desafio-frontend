@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
-export const ControlContainer = styled.button`
+export const ControlContainer = styled(motion.button)<{ show: 'true' | undefined }>`
 	z-index: 3;
 	position: absolute;
 	top: 0;
@@ -9,9 +10,14 @@ export const ControlContainer = styled.button`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	cursor: pointer;
+	opacity: 0;
+	cursor: ${({ show }) => (show ? 'pointer' : 'default')};
+	pointer-events: ${({ show }) => (show ? 'all' : 'none')};
 	border: none;
 	padding: 0;
+
+	will-change: transform, opacity;
+
 	&:focus {
 		outline: none;
 		border: none;

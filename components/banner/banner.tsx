@@ -1,13 +1,12 @@
 import React, { useCallback, useState, useRef, useEffect } from 'react';
-import { useMotionValue, animate } from 'framer-motion';
+import Link from 'next/link';
 
-import type { ApiConfiguration, BannerMovieData } from 'lib/types';
-import { makeBackdropPath } from 'lib/utils/makeBackdropPath';
+import type { BannerMovieData } from 'lib/types';
 
-import { TmdbRating } from 'components/tmdbRating';
+import { SliderControl } from 'components/sliderControl';
 import { ContentContainer } from 'components/contentContainer';
+import { TmdbRating } from 'components/tmdbRating';
 
-import { ControlButton } from './controlButton';
 import { TextContent } from './textContent';
 
 import {
@@ -22,13 +21,11 @@ import {
 	TextContainer
 } from './banner.styles';
 
-interface BannerI {
-	movies: BannerMovieData[];
-}
-
 const loopInterval = 4000;
 
-export const Banner: React.FC<BannerI> = ({ movies }) => {
+export const Banner: React.FC<{
+	movies: BannerMovieData[];
+}> = ({ movies }) => {
 	const prevIndexRef = useRef(0);
 	const [activeSlide, setSlideIndex] = useState(0);
 
@@ -92,28 +89,30 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 
 	return (
 		<BannerContainer>
-			<ControlButton type="left" controlFn={goBackwards} />
+			<SliderControl type="left" controlFn={goBackwards} color="white" show={true} />
 
 			<BannerContent>
 				<ContentContainer>
 					<RatingContainer>
 						{movies[activeSlide] && <TmdbRating rating={movies[activeSlide].rating} />}
 					</RatingContainer>
-					<TextContainer>
-						{movies.map(({ id, title, overview }, index) => {
-							return (
-								<TextContent
-									key={id}
-									itemIndex={index}
-									title={title}
-									overview={overview}
-									activeSlide={activeSlide}
-									slideLength={movies.length}
-									prevIndexRef={prevIndexRef}
-								/>
-							);
-						})}
-					</TextContainer>
+					<Link href={`/movie-detail/${movies[activeSlide].id}`} passHref>
+						<TextContainer>
+							{movies.map(({ id, title, overview }, index) => {
+								return (
+									<TextContent
+										key={id}
+										itemIndex={index}
+										title={title}
+										overview={overview}
+										activeSlide={activeSlide}
+										slideLength={movies.length}
+										prevIndexRef={prevIndexRef}
+									/>
+								);
+							})}
+						</TextContainer>
+					</Link>
 				</ContentContainer>
 			</BannerContent>
 
@@ -143,7 +142,7 @@ export const Banner: React.FC<BannerI> = ({ movies }) => {
 				</BackgroundContent>
 			</BackgroundContainer>
 
-			<ControlButton type="right" controlFn={goForwards} />
+			<SliderControl type="right" controlFn={goForwards} color="white" show={true} />
 		</BannerContainer>
 	);
 };

@@ -1,4 +1,4 @@
-import type { BannerMovieData, ItemActorData, ItemMovieData } from './types';
+import type { BannerMovieData, ActorItemData, MovieItemData } from './types';
 
 import { getApiConfiguration } from './getApiConfiguration';
 import { getBannerMovies } from './getBannerMovies';
@@ -13,9 +13,9 @@ import { makeProfilePath } from './utils/makeProfilePath';
 
 interface HomeData {
 	bannerMovies: BannerMovieData[];
-	comingSoonMovies: ItemMovieData[];
-	popularMovies: ItemMovieData[];
-	popularActors: ItemActorData[];
+	comingSoonMovies: MovieItemData[];
+	popularMovies: MovieItemData[];
+	popularActors: ActorItemData[];
 }
 
 export const getHomeData = async (): Promise<HomeData> => {

@@ -8,13 +8,13 @@ import * as stories from './header.stories';
 const { Default } = composeStories(stories);
 
 describe('Header', () => {
-	it('renders a header', () => {
+	it('render a header', () => {
 		render(<Default />);
 		const header = screen.getByTestId('header');
 		expect(header).toBeInTheDocument();
 	});
 
-	it('render header unchanged', () => {
+	it('header render unchanged', () => {
 		const { container } = render(<Default />);
 
 		expect(container).toMatchSnapshot();

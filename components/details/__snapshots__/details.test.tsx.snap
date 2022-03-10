@@ -1,0 +1,2023 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details actor detail render unchanged 1`] = `
+<div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <div
+        class="ActorProfile-sc-ntgmf7-0 AOxeI"
+      >
+        <div
+          class="ActorAvatarContainer-sc-ntgmf7-1"
+        >
+          <div
+            class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+          >
+            <span
+              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+            >
+              <img
+                alt="Foto do ator"
+                data-nimg="fill"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+              />
+              <noscript />
+            </span>
+          </div>
+        </div>
+        <div
+          class="ActorInfo-sc-ntgmf7-2 kTrFMO"
+        >
+          <h1
+            class="Title-sc-12jcw8v-0 ActorName-sc-ntgmf7-3 gtTvjR cVAIbM"
+          >
+            Tom Holland
+          </h1>
+          <div
+            class="ActorInfoText-sc-ntgmf7-5 dLQLtW"
+          >
+            26 anos
+          </div>
+          <div
+            class="ActorInfoText-sc-ntgmf7-5 dLQLtW"
+          >
+            Surrey, England, UK
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <h1
+        class="Title-sc-12jcw8v-0 gtTvjR"
+      >
+        Biografia
+      </h1>
+    </div>
+  </div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <p
+        class="ActorBiography-sc-ntgmf7-4 jYPsSX"
+      >
+        Thomas "Tom" Holland é um ator e dançarino inglês, mais conhecido por interpretar o papel principal em Billy Elliot the Musical no Victoria Palace Theatre, Londres, bem como para estrelar o filme de 2012 O Impossível. Por último papel, ele se tornou um vencedor do Hollywood Spotlight Award, bem como do National Board of Review’s award no "Breakthrough Actor" categoria do London Film Critics Circle Awards 2012 em “Young British Performer of the Year”. Ele foi destaque em no Screen International’s “UK Stars of Tomorrow – 2012” e em Variety’s “Youth Impact Report 2012”.
+      </p>
+    </div>
+  </div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <h1
+        class="Title-sc-12jcw8v-0 gtTvjR"
+      >
+        Filmografia
+      </h1>
+    </div>
+  </div>
+  <div
+    class="ListFilmsContainer-sc-kjuxum-0 hUxHaM"
+  >
+    <div
+      class="CarouselContainer-sc-1wf8qm3-0 dWDRjS"
+    >
+      <div
+        class="BackgroundGradient-sc-1wf8qm3-2 LeftGradient-sc-1wf8qm3-3 gEecig fFsMbi"
+        style="opacity: 0;"
+      />
+      <button
+        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU hKylEu"
+        data-testid="slider-control"
+        style="opacity: 0;"
+      >
+        <div
+          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-chevron-left "
+            color="#ffb800"
+            data-icon="chevron-left"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+      <div
+        class="CarouselContent-sc-1wf8qm3-1 fPyJHt"
+        style="transform: translateX(88px) translateZ(0);"
+      >
+        <div
+          class="Content-sc-ydrgxo-0 jcZqgE"
+        >
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/315635"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Homem-Aranha: De Volta ao Lar"
+                >
+                  Homem-Aranha: De Volta ao Lar
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2017
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/340442"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="A Peregrinação"
+                >
+                  A Peregrinação
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2017
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/335787"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Uncharted: Fora do Mapa"
+                >
+                  Uncharted: Fora do Mapa
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2022
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/499932"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="O Diabo de Cada Dia"
+                >
+                  O Diabo de Cada Dia
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2020
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/508439"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Dois Irmãos: Uma Jornada Fantástica"
+                >
+                  Dois Irmãos: Uma Jornada Fantástica
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2020
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/544401"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Cherry: Inocência Perdida"
+                >
+                  Cherry: Inocência Perdida
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2021
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/429617"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Homem-Aranha: Longe de Casa"
+                >
+                  Homem-Aranha: Longe de Casa
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/634649"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Homem-Aranha: Sem Volta Para Casa"
+                >
+                  Homem-Aranha: Sem Volta Para Casa
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2021
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/626329"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="A Fan's Guide to Spider-Man: Homecoming"
+                >
+                  A Fan's Guide to Spider-Man: Homecoming
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2017
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/402446"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Inverno Rigoroso"
+                >
+                  Inverno Rigoroso
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2016
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/412656"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Mundo em Caos"
+                >
+                  Mundo em Caos
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2021
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/431693"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Um Espião Animal"
+                >
+                  Um Espião Animal
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/758025"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Peter's To-Do List"
+                >
+                  Peter's To-Do List
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/806061"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Beneath a Scarlet Sky"
+                >
+                  Beneath a Scarlet Sky
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  1969
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/912227"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Untitled Fred Astaire Biopic"
+                >
+                  Untitled Fred Astaire Biopic
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  1969
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/80278"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="O Impossível"
+                >
+                  O Impossível
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2012
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/162215"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Essa é Minha Vida"
+                >
+                  Essa é Minha Vida
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2013
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/314095"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Z: A Cidade Perdida"
+                >
+                  Z: A Cidade Perdida
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2017
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/414017"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Tweet"
+                >
+                  Tweet
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2015
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/411587"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Moments"
+                >
+                  Moments
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2013
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/210479"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Locke"
+                >
+                  Locke
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2014
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/418879"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="A Batalha das Correntes"
+                >
+                  A Batalha das Correntes
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2017
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/205775"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="No Coração do Mar"
+                >
+                  No Coração do Mar
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2015
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/299536"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Vingadores: Guerra Infinita"
+                >
+                  Vingadores: Guerra Infinita
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2018
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/299534"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Vingadores: Ultimato"
+                >
+                  Vingadores: Ultimato
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/448119"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Dolittle"
+                >
+                  Dolittle
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/271110"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Capitão América: Guerra Civil"
+                >
+                  Capitão América: Guerra Civil
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2016
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/298931"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Billy Elliot: The Musical Live"
+                >
+                  Billy Elliot: The Musical Live
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2014
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/662151"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Celebrating Marvel's Stan Lee"
+                >
+                  Celebrating Marvel's Stan Lee
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2019
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="MovieItemContainer-sc-11o4gv2-0 qpfDR"
+              href="/movie-detail/580489"
+            >
+              <div
+                class="ImageContainer-sc-11o4gv2-1 cXNnZm"
+              >
+                <div
+                  class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+                >
+                  <div
+                    class="PosterContent-sc-i25oql-1 eiTosH"
+                  >
+                    <div
+                      class="MovieImage-sc-i25oql-2 ja-dEVy"
+                    >
+                      <div
+                        class="MovieImageContent-sc-i25oql-3 fokrKX"
+                      >
+                        <span
+                          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                        >
+                          <img
+                            alt=""
+                            data-nimg="fill"
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                          />
+                          <noscript />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="TextContainer-sc-11o4gv2-2 TnVlx"
+              >
+                <div
+                  class="Title-sc-11o4gv2-3 jgkVYj"
+                  title="Venom: Tempo de Carnificina"
+                >
+                  Venom: Tempo de Carnificina
+                </div>
+                <div
+                  class="DateContainer-sc-11o4gv2-4 dFJNdF"
+                >
+                  2021
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU bQGCVZ"
+        data-testid="slider-control"
+        style="opacity: 0;"
+      >
+        <div
+          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-chevron-right "
+            color="#ffb800"
+            data-icon="chevron-right"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+      <div
+        class="BackgroundGradient-sc-1wf8qm3-2 RightGradient-sc-1wf8qm3-4 gEecig PWxJQ"
+        style="opacity: 0;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Details movie detail render unchanged 1`] = `
+<div>
+  <div
+    class="TitleContainer-sc-1hf0cgt-0 hIuGxt"
+  >
+    <div
+      class="Container-sc-yq2cgn-0 leaVgY"
+    >
+      <div
+        class="Content-sc-yq2cgn-1 etbrxE"
+      >
+        <div
+          class="PosterContainer-sc-1hf0cgt-1 hpZlqy"
+        >
+          <div
+            class="MoviePosterContainer-sc-i25oql-0 eyVCLd"
+          >
+            <div
+              class="PosterContent-sc-i25oql-1 eiTosH"
+            >
+              <div
+                class="MovieImage-sc-i25oql-2 ja-dEVy"
+              >
+                <div
+                  class="MovieImageContent-sc-i25oql-3 fokrKX"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      alt=""
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                    />
+                    <noscript />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="TextContainer-sc-1hf0cgt-2 hRhzVI"
+        >
+          <h1
+            class="Title-sc-12jcw8v-0 gtTvjR"
+          >
+            Homem-Aranha: Sem Volta Para Casa
+          </h1>
+          <div
+            class="RatingContainer-sc-1g1w7oy-0 eRwBjt"
+          >
+            <div
+              class="SvgContainer-sc-1g1w7oy-1 StarContainer-sc-1g1w7oy-2 evdtLQ gZuYIb"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-star "
+                color="#FFB800"
+                data-icon="star"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div
+              class="RatingText-sc-1g1w7oy-3 dKfZRU"
+            >
+              <div
+                class="Rating-sc-1g1w7oy-4 iJEgzH"
+              >
+                0
+              </div>
+              <div
+                class="RatingLimit-sc-1g1w7oy-5 kJwsdo"
+              >
+                / 10
+              </div>
+            </div>
+            <div
+              class="TmbdLogoContainer-sc-1g1w7oy-6 cczYB"
+            >
+              <svg
+                data-testid="tmdb-logo-primary-short"
+                viewBox="0 0 190.24 81.52"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <lineargradient
+                    gradientUnits="userSpaceOnUse"
+                    id="imdb-logo-gradient-1"
+                    x2="190.24"
+                    y1="40.76"
+                    y2="40.76"
+                  >
+                    <stop
+                      offset="0"
+                      stop-color="#90cea1"
+                    />
+                    <stop
+                      offset=".56"
+                      stop-color="#3cbec9"
+                    />
+                    <stop
+                      offset="1"
+                      stop-color="#00b3e5"
+                    />
+                  </lineargradient>
+                </defs>
+                <g
+                  data-name="Layer 2"
+                >
+                  <path
+                    d="M105.67 36.06h66.9a17.67 17.67 0 0 0 17.67-17.66A17.67 17.67 0 0 0 172.57.73h-66.9A17.67 17.67 0 0 0 88 18.4a17.67 17.67 0 0 0 17.67 17.66Zm-88 45h76.9a17.67 17.67 0 0 0 17.67-17.66 17.67 17.67 0 0 0-17.67-17.67h-76.9A17.67 17.67 0 0 0 0 63.4a17.67 17.67 0 0 0 17.67 17.66Zm-7.26-45.64h7.8V6.92h10.1V0h-28v6.9h10.1Zm28.1 0h7.8V8.25h.1l9 27.15h6l9.3-27.15h.1V35.4h7.8V0H66.76l-8.2 23.1h-.1L50.31 0h-11.8Zm113.92 20.25a15.07 15.07 0 0 0-4.52-5.52 18.57 18.57 0 0 0-6.68-3.08 33.54 33.54 0 0 0-8.07-1h-11.7v35.4h12.75a24.58 24.58 0 0 0 7.55-1.15 19.34 19.34 0 0 0 6.35-3.32 16.27 16.27 0 0 0 4.37-5.5 16.91 16.91 0 0 0 1.63-7.58 18.5 18.5 0 0 0-1.68-8.25ZM145 68.6a8.8 8.8 0 0 1-2.64 3.4 10.7 10.7 0 0 1-4 1.82 21.57 21.57 0 0 1-5 .55h-4.05v-21h4.6a17 17 0 0 1 4.67.63 11.66 11.66 0 0 1 3.88 1.87A9.14 9.14 0 0 1 145 59a9.87 9.87 0 0 1 1 4.52 11.89 11.89 0 0 1-1 5.08Zm44.63-.13a8 8 0 0 0-1.58-2.62 8.38 8.38 0 0 0-2.42-1.85 10.31 10.31 0 0 0-3.17-1v-.1a9.22 9.22 0 0 0 4.42-2.82 7.43 7.43 0 0 0 1.68-5 8.42 8.42 0 0 0-1.15-4.65 8.09 8.09 0 0 0-3-2.72 12.56 12.56 0 0 0-4.18-1.3 32.84 32.84 0 0 0-4.62-.33h-13.2v35.4h14.5a22.41 22.41 0 0 0 4.72-.5 13.53 13.53 0 0 0 4.28-1.65 9.42 9.42 0 0 0 3.1-3 8.52 8.52 0 0 0 1.2-4.68 9.39 9.39 0 0 0-.55-3.18Zm-19.42-15.75h5.3a10 10 0 0 1 1.85.18 6.18 6.18 0 0 1 1.7.57 3.39 3.39 0 0 1 1.22 1.13 3.22 3.22 0 0 1 .48 1.82 3.63 3.63 0 0 1-.43 1.8 3.4 3.4 0 0 1-1.12 1.2 4.92 4.92 0 0 1-1.58.65 7.51 7.51 0 0 1-1.77.2h-5.65Zm11.72 20a3.9 3.9 0 0 1-1.22 1.3 4.64 4.64 0 0 1-1.68.7 8.18 8.18 0 0 1-1.82.2h-7v-8h5.9a15.35 15.35 0 0 1 2 .15 8.47 8.47 0 0 1 2.05.55 4 4 0 0 1 1.57 1.18 3.11 3.11 0 0 1 .63 2 3.71 3.71 0 0 1-.43 1.92Z"
+                    data-name="Layer 1"
+                    fill="url(#imdb-logo-gradient-1)"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="BackdropContainer-sc-1hf0cgt-3 kiYTdl"
+  >
+    <div
+      class="BackdropContent-sc-1hf0cgt-4 gpTaht"
+    >
+      <span
+        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+      >
+        <img
+          alt=""
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+        />
+        <noscript />
+      </span>
+    </div>
+  </div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <h1
+        class="Title-sc-12jcw8v-0 gtTvjR"
+      >
+        Visão Geral
+      </h1>
+    </div>
+  </div>
+  <div
+    class="Container-sc-yq2cgn-0 leaVgY"
+  >
+    <div
+      class="Content-sc-yq2cgn-1 etbrxE"
+    >
+      <p
+        class="MovieOverview-sc-14b5ztx-0 iydRqr"
+      >
+        Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.
+      </p>
+    </div>
+  </div>
+</div>
+`;

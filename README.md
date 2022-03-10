@@ -8,13 +8,13 @@
 
 ## 📲 Destaques do Projeto:
 
-✨ [**Biblioteca visual de componentes**](#biblioteca-visual-de-componentes-e-storybook)</br>
+💫 [**Biblioteca visual de componentes**](#biblioteca-visual-de-componentes-e-storybook)</br>
 ✨ **Temas _dark_ e _light_**</br>
-✨ **[Base de dados em português mantida pela comunidade](#a-base-de-dados-tmdb)**</br>
+💫 **[Base de dados em português mantida pela comunidade](#a-base-de-dados-tmdb)**</br>
 ✨ **Testes unitários para componentes**</br>
-✨ **_Cache_ do _front-end_ com geração estática incremental**</br>
+💫 **_Cache_ do _front-end_ com geração estática incremental**</br>
 ✨ **Imagens otimizadas**</br>
-✨ **CI / CD**</br>
+💫 **CI / CD**</br>
 ✨ **Typescript**</br>
 
 ## 📃 Escopo do desafio:

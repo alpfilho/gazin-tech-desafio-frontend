@@ -1,0 +1,803 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListActors actors list render unchanged 1`] = `
+<div>
+  <div
+    class="ListActorsContainer-sc-gomxac-0 hjbwNV"
+  >
+    <div
+      class="CarouselContainer-sc-1wf8qm3-0 dWDRjS"
+    >
+      <div
+        class="BackgroundGradient-sc-1wf8qm3-2 LeftGradient-sc-1wf8qm3-3 gEecig fFsMbi"
+        style="opacity: 0;"
+      />
+      <button
+        class="ControlContainer-sc-ms3p6h-0 LeftControlButton-sc-ms3p6h-1 kbYidU hKylEu"
+        data-testid="slider-control"
+        style="opacity: 0;"
+      >
+        <div
+          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-chevron-left "
+            color="#ffb800"
+            data-icon="chevron-left"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+      <div
+        class="CarouselContent-sc-1wf8qm3-1 fPyJHt"
+        style="transform: translateX(88px) translateZ(0);"
+      >
+        <div
+          class="Content-sc-ydrgxo-0 jcZqgE"
+        >
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/17142"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Paul Dano
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                38
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1136406"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Tom Holland
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                26
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1972974"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Isabel May
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                22
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/224513"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Ana de Armas
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                34
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/2037"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Cillian Murphy
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                46
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/11288"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Robert Pattinson
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                36
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/37153"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Zoë Kravitz
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                34
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1290466"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Barry Keoghan
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                30
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1190668"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Timothée Chalamet
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                27
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/6384"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                58
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/90633"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Gal Gadot
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                37
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1522703"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Hande Erçel
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                29
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/130640"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Hailee Steinfeld
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                26
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/505710"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Zendaya
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                26
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1158"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Al Pacino
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                82
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/56734"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Chloë Grace Moretz
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                25
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/6614"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Cole Hauser
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                47
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1260401"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Pataratida Patcharawirapong
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                38
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/115440"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Sydney Sweeney
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                25
+              </div>
+            </a>
+          </div>
+          <div
+            class="ItemContainer-sc-1i49f8l-0 hcXqSn"
+          >
+            <a
+              class="ActorItemContainer-sc-1tfwwoc-0 jRLJqv"
+              href="/actor-detail/1172108"
+            >
+              <div
+                class="ActorAvatarContainer-sc-1x8wrd-0 iTnYi"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Foto do ator"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; object-position: center center;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="ActorName-sc-1tfwwoc-1 hA-DpjP"
+              >
+                Mckenna Grace
+              </div>
+              <div
+                class="ActorAge-sc-1tfwwoc-2 gUFFdz"
+                data-testid="actor-age"
+              >
+                16
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="ControlContainer-sc-ms3p6h-0 RightControlButton-sc-ms3p6h-2 kbYidU bQGCVZ"
+        data-testid="slider-control"
+        style="opacity: 0;"
+      >
+        <div
+          class="ControlIconContainer-sc-ms3p6h-3 eOAwHX"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-chevron-right "
+            color="#ffb800"
+            data-icon="chevron-right"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+      <div
+        class="BackgroundGradient-sc-1wf8qm3-2 RightGradient-sc-1wf8qm3-4 gEecig PWxJQ"
+        style="opacity: 0;"
+      />
+    </div>
+  </div>
+</div>
+`;
