@@ -33,7 +33,7 @@ Resumo:
 
 ### Resolução:
 
-Seguindo o enunciado do desafio e seus requisitos, desenvolvi em **45 horas** de trabalho, um _front-end_ _SPA_ com `React` para exibir informações sobre filmes.
+Seguindo o enunciado do desafio e seus requisitos, desenvolvi em **60 horas** de trabalho, um _front-end_ _SPA_ com `React` para exibir informações sobre filmes.
 
 Eu ainda não tinha conhecimento em _server side rendering_, mas por notar que a Gazin utilizava `NextJS` em sua stack, decidi estudar e desenvolver o projeto usando o framework.
 
@@ -54,8 +54,6 @@ Portanto, para o _front-end_, utilizei:
    É uma biblioteca de animações focada em componentes `React`. É uma boa utilidade para desenvolver animações com rapidez, mas também oferece ferramentas para criar interações do zero.
 
 Os componentes `banner` e `listFilms` utilizam um _slider_ e um _carousel_ que foram **feitos do zero**. Não utiizei bibliotecas prontas e desenvolvi uma solução otimizada para a aplicação.
-
-Baseado em conhecimentos anteriores, criei a _hook_ `useViewport` e o componente `<DeviceSwitch />` que utilizam o tamanho da _viewport_ para alternar entre estilos e componentes. Dessa forma, cada dispositivo recebe a interface desenvolvida pra ele.
 
 # Biblioteca visual de componentes e `Storybook`:
 
